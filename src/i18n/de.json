@@ -1,0 +1,19 @@
+{
+  "_lp": {
+    "cancel": "Abbrechen",
+    "class": {
+      "add": "Klasse hinzufügen",
+      "empty": "Es wurden noch keine Klassen hinzufügt. Bitte fügen Sie eine Klasse hinzu.",
+      "name": "Name der Klasse",
+      "title": "Klasse"
+    },
+    "delete": "Löschen",
+    "delete-long": "Wollen Sie wirklich fortfahren?",
+    "school": {
+      "add": "Schule hinzufügen",
+      "name": "Name der Schule",
+      "title": "Schule"
+    },
+    "title": "Stundenplanung"
+  }
+}

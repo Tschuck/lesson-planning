@@ -1,0 +1,19 @@
+{
+  "_lp": {
+    "cancel": "Cancel",
+    "class": {
+      "add": "Add class",
+      "empty": "No classes have been added yet. Please add a class.",
+      "not-selected": "Choose a class or add a new one.",
+      "title": "Class"
+    },
+    "delete": "Delete",
+    "delete-long": "Do you realy want to continue?",
+    "school": {
+      "add": "Add school",
+      "name": "Name of school",
+      "title": "School"
+    },
+    "title": "Lesson planning"
+  }
+}

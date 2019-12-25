@@ -1,6 +1,55 @@
 <template>
   <div>
-    <lp-header />
+    <lp-header>
+      <b-navbar-nav class="ml-auto d-flex">
+        <div>
+          <i
+            :title="$t(`_lp.school.add`)"
+            @click="lessonPlanning.addSchool()"
+            class="mdi mdi-plus-circle h4 ml-3 d-flex text-white align-items-center mb-0 h-100"
+            v-b-tooltip.hover
+          />
+        </div>
+        <div>
+          <i
+            :title="$t(`_lp.school.import`)"
+            @click="$refs.importModal.show()"
+            class="mdi mdi-upload h4 ml-3 d-flex text-white align-items-center mb-0 h-100"
+            v-b-tooltip.hover
+          />
+        </div>
+      </b-navbar-nav>
+    </lp-header>
+
+    <b-modal
+      :title="$t('_lp.school.import')"
+      hide-footer
+      ref="importModal">
+
+      <div class="custom-file">
+        <input
+          accept=".json"
+          class="custom-file-input"
+          id="schoolImport"
+          ref="schoolImport"
+          type="file"
+          v-on:change="importSchool()">
+          <p class="text-danger" v-if="importError">
+            {{ '_lp.school.invalid-import' | translate }}
+          </p>
+        <label class="custom-file-label" for="schoolImport">
+          {{ '_lp.school.import-file' | translate }}
+        </label>
+      </div>
+
+      <div class="text-right">
+        <b-button
+          class="mt-3"
+          @click="$refs.importModal.hide();">
+          {{ '_lp.close' | translate }}
+        </b-button>
+      </div>
+    </b-modal>
 
     <div class="container">
       <div class="row">
@@ -20,16 +69,6 @@
             </b-card-title>
           </b-card>
         </router-link>
-        <div
-          class="col-md-3 p-3">
-          <b-card style="height: 80px; cursor:pointer;"
-            @click="lessonPlanning.addSchool()">
-            <b-card-title class="mb-0 d-flex align-items-center">
-              <i class="mdi mdi-plus h2 mb-0 mr-3"></i>
-              <h4 class="mb-0">{{ '_lp.school.add' | translate }}</h4>
-            </b-card-title>
-          </b-card>
-        </div>
       </div>
     </div>
   </div>
@@ -46,9 +85,27 @@ export default {
   },
   data() {
     return {
+      importError: false,
       lessonPlanning,
       schools: lessonPlanning.schools,
     };
+  },
+  methods: {
+    importSchool() {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const id = lessonPlanning.addSchool(JSON.parse(event.target.result));
+          this.importError = false;
+          this.$refs.importModal.hide();
+          this.$router.push(`/school/${id}`);
+        } catch (ex) {
+          console.error(ex.message);
+          this.importError = true;
+        }
+      };
+      reader.readAsText(this.$refs.schoolImport.files[0]);
+    },
   },
 };
 </script>

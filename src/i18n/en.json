@@ -23,6 +23,10 @@
     },
     "school": {
       "add": "Add school",
+      "export": "Export school",
+      "import": "Import School",
+      "import-file": "Import School",
+      "invalid-import": "Invalid file",
       "name": "Name of school",
       "title": "School"
     },

@@ -23,6 +23,10 @@
     },
     "school": {
       "add": "Schule hinzufügen",
+      "export": "Schule exportieren",
+      "import": "Schule importieren",
+      "import-file": "Schule importieren",
+      "invalid-import": "Ungültige Datei",
       "name": "Name der Schule",
       "title": "Schule"
     },

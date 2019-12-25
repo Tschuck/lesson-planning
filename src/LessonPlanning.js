@@ -38,12 +38,13 @@ class LessonPlanning {
   /**
    * Add a new school object to the instance and to the array of available once.
    *
-   * @param      {Vue}  vue     optional vue instance for forcing ui updates
+   * @param      {any}     school  optional school object
+   * @return     {<type>}  { description_of_the_return_value }
    */
-  addSchool() {
+  addSchool(school) {
     const id = utils.generateUID();
     this.schools.push(id);
-    this[id] = {
+    this[id] = school || {
       classes: { },
       lessons: { },
       name: `${vue.$t('_lp.school.title')} - ${this.schools.length}`,

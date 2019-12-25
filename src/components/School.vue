@@ -15,6 +15,14 @@
             v-b-tooltip.hover
           />
         </div>
+        <div>
+          <i
+            :title="$t(`_lp.school.export`)"
+            @click="exportSchool()"
+            class="mdi mdi-download h4 ml-3 d-flex text-white align-items-center mb-0 h-100"
+            v-b-tooltip.hover
+          />
+        </div>
         <lp-delete
           :id="this.$route.params.id"
           @on-delete="$router.push('/')"
@@ -192,6 +200,16 @@ export default {
     addTeacher() {
       const id = lessonPlanning.addTeacher(this.$route.params.id);
       this.teachers.push(id);
+    },
+    exportSchool() {
+      const dataStr = `data:text/json;charset=utf-8, ${encodeURIComponent(
+        JSON.stringify(this.school))}`;
+      const downloadAnchorNode = document.createElement('a');
+      downloadAnchorNode.setAttribute('href', dataStr);
+      downloadAnchorNode.setAttribute('download', `${this.school.name}.json`);
+      document.body.appendChild(downloadAnchorNode); // required for firefox
+      downloadAnchorNode.click();
+      downloadAnchorNode.remove();
     },
   },
 };

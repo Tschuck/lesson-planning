@@ -1,6 +1,6 @@
 # lesson-planning
 
-> A Vue.js project
+Easy handling of school, teacher and lesson metadata, for easy creations of timetables.
 
 ## Build Setup
 

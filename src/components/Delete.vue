@@ -1,13 +1,17 @@
 <template>
   <div>
     <i
+      :class="`text-${color}`"
       :title="$t(`_lp.delete`)"
-      class="mdi mdi-delete text-white h4 ml-3 d-flex align-items-center mb-0 h-100"
-      v-b-modal.deleteModal
+      @click="$refs.deleteModal.show()"
+      class="mdi mdi-delete h4 ml-3 d-flex align-items-center mb-0 h-100"
       v-b-tooltip.hover
     />
 
-    <b-modal id="deleteModal" :title="$t('_lp.delete')" hide-footer>
+    <b-modal
+      ref="deleteModal"
+      :title="$t('_lp.delete')"
+      hide-footer>
       <p class="my-4">
         {{ '_lp.delete-long' | translate }}
       </p>
@@ -15,14 +19,14 @@
       <div class="text-right">
         <b-button
           class="mt-3"
-          @click="$bvModal.hide('deleteModal')">
+          @click="$refs.deleteModal.hide();">
           {{ '_lp.cancel' | translate }}
         </b-button>
         <b-button
           class="mt-3"
           variant="danger"
           @click="
-            $bvModal.hide('deleteModal');
+            $refs.deleteModal.hide();
             lessonPlanning.deleteId(id);
             $emit('on-delete');
           ">
@@ -43,7 +47,7 @@ export default {
       lessonPlanning,
     };
   },
-  props: ['id'],
+  props: ['id', 'color'],
 };
 </script>
 

@@ -5,12 +5,18 @@
 <script>
 export default {
   name: 'App',
+  created() {
+    // set dynamic page title
+    document.title = this.$t('_lp.title');
+  },
 };
 </script>
 
 <style lang="scss">
-  $primary: #97266D;
+  $primary: #880e4f;
+  $info: #c51162;
 
+  @import "node_modules/vue-select/src/scss/vue-select.scss";
   @import 'node_modules/bootstrap/scss/bootstrap';
   @import 'node_modules/bootstrap-vue/src/index.scss';
 

@@ -56,6 +56,50 @@ class LessonPlanning {
   }
 
   /**
+   * Add a new lesson to a class.
+   *
+   * @param      {string}  schoolId  id of the scool
+   * @param      {string}  classId   id of the class
+   */
+  addLesson(schoolId, classId) {
+    const id = utils.generateUID();
+    const lessonCount = Object.keys(this[schoolId].classes[classId].lessons).length;
+
+    this[schoolId].classes[classId].lessons[id] = {
+      hours: 0,
+      lessons: [],
+      name: `${vue.$t('_lp.lesson.title')} ${lessonCount + 1}`,
+      teachers: [],
+    };
+
+    return id;
+  }
+
+  /**
+   * Add a new lesson to a class.
+   *
+   * @param      {string}  schoolId  id of the scool
+   * @param      {string}  classId   id of the class
+   */
+  addTeacher(schoolId) {
+    const id = utils.generateUID();
+    const lessonCount = Object.keys(this[schoolId].teachers).length;
+
+    this[schoolId].teachers[id] = {
+      name: `${vue.$t('_lp.teachers.teacher')} ${lessonCount + 1}`,
+      days: [
+        [1, 2, 3, 4, 5, 6],
+        [1, 2, 3, 4, 5, 6],
+        [1, 2, 3, 4, 5, 6],
+        [1, 2, 3, 4, 5, 6],
+        [1, 2, 3, 4, 5, 6],
+      ],
+    };
+
+    return id;
+  }
+
+  /**
    * Search for id references and remove them from the schoold structure.
    *
    * @param      {string}  deleteId  id to remove

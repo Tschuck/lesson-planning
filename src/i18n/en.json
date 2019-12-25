@@ -3,16 +3,42 @@
     "cancel": "Cancel",
     "class": {
       "add": "Add class",
+      "config": "Configuration",
       "empty": "No classes have been added yet. Please add a class.",
       "not-selected": "Choose a class or add a new one.",
       "title": "Class"
     },
+    "close": "Close",
     "delete": "Delete",
     "delete-long": "Do you realy want to continue?",
+    "lesson": {
+      "add": "Add lesson",
+      "empty": "No lesson have been added yet. Please add a lesson.",
+      "hours": "Hours",
+      "lesson-ref": "Lesson reference",
+      "name": "Name of lesson",
+      "teachers": "Teachers",
+      "title": "Lesson"
+    },
     "school": {
       "add": "Add school",
       "name": "Name of school",
       "title": "School"
+    },
+    "teachers": {
+      "add": "Add teacher",
+      "days": {
+        "0": "Monday",
+        "1": "Tuesday",
+        "2": "Wednesday",
+        "3": "Thursday",
+        "4": "Friday"
+      },
+      "empty": "No teacher has been added yet. Please add a teacher.",
+      "hour": "Hour",
+      "name": "Teacher name",
+      "teacher": "Teacher",
+      "title": "Teachers"
     },
     "title": "Lesson planning"
   }

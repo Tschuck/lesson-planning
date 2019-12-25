@@ -4,6 +4,7 @@
     "class": {
       "add": "Add class",
       "config": "Configuration",
+      "duplicate": "Duplizieren",
       "empty": "No classes have been added yet. Please add a class.",
       "not-selected": "Choose a class or add a new one.",
       "title": "Class"

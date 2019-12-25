@@ -28,10 +28,8 @@ class LessonPlanning {
   addClass(schoolId) {
     const id = utils.generateUID();
     this[schoolId].classes[id] = {
-      classes: { },
       lessons: { },
       name: `${vue.$t('_lp.class.title')} - ${Object.keys(this[schoolId].classes).length + 1}`,
-      teachers: { },
     };
 
     return id;
@@ -135,6 +133,39 @@ class LessonPlanning {
         this.schools.splice(this.schools.indexOf(deleteId), 1);
       }
     });
+  }
+
+  /**
+   * Copy a class definition and assign it to a new id.
+   *
+   * @param      {string}  schooldId  id of school, where the class is added
+   * @param      {string}  id         class id to copy
+   * @return     {string}  new copied id
+   */
+  duplicate(schooldId, id) {
+    const origin = this[schooldId];
+    const copyClass = JSON.parse(JSON.stringify(origin.classes[id]));
+    copyClass.lessons = {};
+
+    // assign new id's to the lessons
+    Object
+      .keys(origin.classes[id].lessons)
+      .forEach((key) => {
+        const originLesson = origin.classes[id].lessons[key];
+
+        // copy lesson and reset values
+        const copyLesson = JSON.parse(JSON.stringify(originLesson));
+        copyLesson.teachers = [];
+        copyLesson.lessons = [];
+
+        copyClass.lessons[utils.generateUID()] = copyLesson;
+      });
+
+    // assign to new id
+    const newId = utils.generateUID();
+    this[schooldId].classes[newId] = copyClass;
+
+    return newId;
   }
 
   /**

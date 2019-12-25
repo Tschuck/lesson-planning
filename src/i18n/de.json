@@ -4,6 +4,7 @@
     "class": {
       "add": "Klasse hinzufügen",
       "config": "Konfiguration",
+      "duplicate": "Duplizieren",
       "empty": "Es wurden noch keine Klassen hinzufügt. Bitte fügen Sie eine Klasse hinzu.",
       "name": "Name der Klasse",
       "title": "Klasse"

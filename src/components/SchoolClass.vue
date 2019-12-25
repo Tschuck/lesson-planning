@@ -9,6 +9,14 @@
           v-model="classObj.name"
           :placeholder="$t('_lp.class.name')"
         />
+        <div>
+          <i
+            :title="$t(`_lp.class.duplicate`)"
+            @click="duplicate()"
+            class="mdi mdi-content-copy h4 ml-3 d-flex text-dark align-items-center mb-0 h-100"
+            v-b-tooltip.hover
+          />
+        </div>
         <lp-delete
           :id="this.$route.params.classId"
           @on-delete="$router.push(`/school/${$route.params.id}`)"
@@ -136,6 +144,10 @@ export default {
     addLesson() {
       const id = lessonPlanning.addLesson(this.$route.params.id, this.$route.params.classId);
       this.lessons.push(id);
+    },
+    duplicate() {
+      const classId = lessonPlanning.duplicate(this.$route.params.id, this.$route.params.classId);
+      this.$router.push(`/school/${this.$route.params.id}/${classId}`);
     },
     teacherOptions() {
       const school = lessonPlanning[this.$route.params.id];

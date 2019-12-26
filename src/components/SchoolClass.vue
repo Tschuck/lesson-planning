@@ -72,6 +72,7 @@
                   :options="teacherOptions()"
                   multiple
                   v-model="classObj.lessons[lesson].teachers"
+                  :reduce="teacher => teacher.key"
                   @change="$set(
                     classObj.lessons[lesson],
                     'teachers',
@@ -85,6 +86,7 @@
                   :options="classReferenceOptions()"
                   multiple
                   v-model="classObj.lessons[lesson].lessons"
+                  :reduce="lesson => lesson.key"
                   @change="$set(
                     classObj.lessons[lesson],
                     'lessons',

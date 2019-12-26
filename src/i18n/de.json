@@ -6,12 +6,21 @@
       "config": "Konfiguration",
       "duplicate": "Duplizieren",
       "empty": "Es wurden noch keine Klassen hinzufügt. Bitte fügen Sie eine Klasse hinzu.",
+      "multiple": "Klassen",
       "name": "Name der Klasse",
       "title": "Klasse"
     },
     "close": "Schließen",
+    "days": {
+      "0": "Montag",
+      "1": "Dienstag",
+      "2": "Mittwoch",
+      "3": "Donnerstag",
+      "4": "Freitag"
+    },
     "delete": "Löschen",
     "delete-long": "Wollen Sie wirklich fortfahren?",
+    "hour": "Stunde",
     "lesson": {
       "add": "Fach hinzufügen",
       "empty": "Es wurden noch keine Fächer hinzufügt. Bitte fügen Sie ein Fach hinzu.",
@@ -32,18 +41,14 @@
     },
     "teachers": {
       "add": "Lehrer hinzufügen",
-      "days": {
-        "0": "Montag",
-        "1": "Dienstag",
-        "2": "Mittwoch",
-        "3": "Donnerstag",
-        "4": "Freitag"
-      },
       "empty": "Es wurden noch kein Lehrer hinzufügt. Bitte fügen Sie einen Lehrer hinzu.",
-      "hour": "Stunde",
+      "multiple": "Lehrer",
       "name": "Name des Lehrers",
       "teacher": "Lehrer",
       "title": "Kollegium"
+    },
+    "timetable": {
+      "create": "Stundenplan erstellen"
     },
     "title": "Stundenplanung"
   }

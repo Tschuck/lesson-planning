@@ -6,12 +6,21 @@
       "config": "Configuration",
       "duplicate": "Duplizieren",
       "empty": "No classes have been added yet. Please add a class.",
+      "multiple": "Classes",
       "not-selected": "Choose a class or add a new one.",
       "title": "Class"
     },
     "close": "Close",
+    "days": {
+      "0": "Monday",
+      "1": "Tuesday",
+      "2": "Wednesday",
+      "3": "Thursday",
+      "4": "Friday"
+    },
     "delete": "Delete",
     "delete-long": "Do you realy want to continue?",
+    "hour": "Hour",
     "lesson": {
       "add": "Add lesson",
       "empty": "No lesson have been added yet. Please add a lesson.",
@@ -32,18 +41,14 @@
     },
     "teachers": {
       "add": "Add teacher",
-      "days": {
-        "0": "Monday",
-        "1": "Tuesday",
-        "2": "Wednesday",
-        "3": "Thursday",
-        "4": "Friday"
-      },
       "empty": "No teacher has been added yet. Please add a teacher.",
-      "hour": "Hour",
+      "multiple": "Teachers",
       "name": "Teacher name",
       "teacher": "Teacher",
       "title": "Teachers"
+    },
+    "timetable": {
+      "create": "Generate Timetable"
     },
     "title": "Lesson planning"
   }

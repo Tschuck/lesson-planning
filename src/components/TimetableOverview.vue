@@ -62,7 +62,7 @@ export default {
     /**
      * Toggle the timetable panel and genewrate new plans, when active state is true.
      */
-    toggle() {
+    async toggle() {
       this.active = !this.active;
 
       if (this.active) {

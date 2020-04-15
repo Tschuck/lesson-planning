@@ -24,15 +24,33 @@
             v-for="(_, day) in days">
             <template v-if="timetable.plan[day][hour]">
               <template v-if="type === 'class'">
-                <b>{{ timetable.plan[day][hour].lessonName }}</b>
+                <div>
+                  <b-form-checkbox
+                    v-model="status"
+                    value="true"
+                    unchecked-value="false"
+                  >
+                  </b-form-checkbox>
+                  <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
+                    <b-dropdown-item>First Action</b-dropdown-item>
+                    <b-dropdown-item>Second Action</b-dropdown-item>
+                    <b-dropdown-item>Third Action</b-dropdown-item>
+                    <b-dropdown-divider></b-dropdown-divider>
+                    <b-dropdown-item active>Active action</b-dropdown-item>
+                    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+                  </b-dropdown>
+                </div>
+                <div>
+                  <b>{{ timetable.plan[day][hour].lessonName }}</b>
 
-                <p class="mb-0">
-                  <span
-                    v-for="teacher in timetable.plan[day][hour].teachers"
-                    :key="teacher">
-                    {{ teachers[teacher].name }}
-                  </span>
-                </p>
+                  <p class="mb-0">
+                    <span
+                      v-for="teacher in timetable.plan[day][hour].teachers"
+                      :key="teacher">
+                      {{ teachers[teacher].name }}
+                    </span>
+                  </p>
+                </div>
               </template>
               <template v-if="type === 'teacher'">
                 <b>{{ timetable.plan[day][hour].className }}</b>

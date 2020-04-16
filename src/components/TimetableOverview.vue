@@ -14,6 +14,24 @@
       />
     </div>
 
+    <b-modal id="error-modal">
+      <template v-slot:modal-title>
+        {{ '_lp.timetable.error.title' | translate }}
+      </template>
+      <div class="d-block text-center">
+        {{ '_lp.timetable.error.invalid' | translate }}
+      </div>
+    </b-modal>
+
+    <b-modal id="manual-error-modal">
+      <template v-slot:modal-title>
+        {{ '_lp.timetable.error.title' | translate }}
+      </template>
+      <div class="d-block text-center">
+        {{ '_lp.timetable.error.manual' | translate }}
+      </div>
+    </b-modal>
+
     <b-overlay
       class="d-flex flex-column"
       style="max-height: 100%;"
@@ -43,13 +61,16 @@
         </b-button>
       </div>
 
-      <div class="overflow-auto" v-if="plans">
-        <lp-timetable
-          :key="`${activeView}-${index}`"
-          :timetable="plan"
-          :type="activeView === 0 ? 'class' : 'teacher'"
-          v-for="(plan, index) in plans[activeView === 0 ? 'classes' : 'teachers']"
-        />
+      <div class="overflow-auto" style="min-height: 100%" v-if="plans">
+        <template v-if="!reloading">
+          <lp-timetable
+            :key="`${activeView}-${index}`"
+            :timetable="plan"
+            :type="activeView === 0 ? 'class' : 'teacher'"
+            v-for="(plan, index) in plans[activeView === 0 ? 'classes' : 'teachers']"
+            @update="generateNewPlan($event)"
+          />
+        </template>
       </div>
       <div class="text-center p-5" v-else>
         <h4>{{ '_lp.timetable.missing' | translate }}</h4>
@@ -81,6 +102,7 @@ export default {
       activeView: 0,
       generating: false,
       plans: null,
+      reloading: false,
       tg: null,
     };
   },
@@ -109,15 +131,71 @@ export default {
     /**
      * Generate a new plan, with the current configuration
      */
-    async generateNewPlan() {
-      // ensure to show loading screen
-      this.generating = true;
+    async generateNewPlan($event) {
+      let skipUpdate = false;
 
-      // get new timetable
-      await new Promise((resolve) => setTimeout(resolve, 200));
-      this.tg.update();
-      this.setPlans();
+      // get new timetabl
+      try {
+        if ($event) {
+          const { classId, lessonId, day, hour } = $event;
 
+          // if a lesson was locked, assign it
+          if (lessonId) {
+            if (this.tg[classId][day][hour] && this.tg[classId][day][hour].lessonId === lessonId) {
+              skipUpdate = true;
+            }
+
+            // update original timetable with new lesson
+            const classDef = lessonPlanning[this.$route.params.id].classes[classId];
+            const lesson = classDef.lessons[lessonId];
+            this.tg.assignLesson({
+              classId,
+              className: classDef.name,
+              lessonId,
+              lessonName: lesson.name,
+              lessons: lesson.lessons,
+              locked: true,
+              teachers: lesson.teachers,
+            }, { dayIndex: day, hourIndex: hour });
+          } else {
+            this.tg.revertLesson(
+              this.tg[classId][day][hour],
+              { dayIndex: day, hourIndex: hour },
+            );
+          }
+        }
+        // do not update timetable, when the same lesson is selected as before
+        if (!skipUpdate) {
+          // ensure to show loading screen
+          this.generating = true;
+          await new Promise((resolve) => setTimeout(resolve, 100));
+
+          this.tg.update();
+          this.setPlans();
+        }
+      } catch (ex) {
+        console.error(ex.message);
+
+        // show message
+        if ($event) {
+          const { classId, day, hour } = $event;
+          // revert previous configuration
+          this.tg.revertLesson(
+            this.tg[classId][day][hour],
+            { dayIndex: day, hourIndex: hour },
+          );
+          this.generateNewPlan();
+
+          this.$bvModal.show('manual-error-modal');
+        } else {
+          this.$bvModal.show('error-modal');
+        }
+      }
+
+      // hide overlay and force update of tables
+      this.reloading = true;
+      await new Promise((resolve) => setTimeout(resolve, 0));
+      this.reloading = false;
       this.generating = false;
     },
     /**
@@ -131,6 +209,7 @@ export default {
       };
       Object.keys(this.tg.classes).forEach((classId) => {
         this.plans.classes.push({
+          classId,
           name: this.tg.classes[classId].name,
           plan: this.tg[classId],
         });
@@ -138,6 +217,7 @@ export default {
 
       Object.keys(this.tg.teachers).forEach((teacherId) => {
         this.plans.teachers.push({
+          teacherId,
           name: this.tg.teachers[teacherId].name,
           plan: this.tg[teacherId],
         });

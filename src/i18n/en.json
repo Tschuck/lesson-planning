@@ -52,7 +52,12 @@
       "generating": "Generating Timetable...",
       "missing": "No Timetable was created before, please generate a new one.",
       "reset": "Reset Timetable",
-      "lock-lesson": "Force lesson manually"
+      "lock-lesson": "Force lesson manually",
+      "error": {
+        "title": "Error",
+        "invalid": "Invalid configuration of the lessons. No timetable could be generated.",
+        "manual": "No timetable could be generated for this manual configuration. The change has been undone."
+      }
     },
     "title": "Lesson planning"
   }

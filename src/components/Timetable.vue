@@ -101,6 +101,8 @@ export default {
         // IMPORTANT: Use same structure as the `getFlat` method of the TimetableGenerator;
         value: lessonId,
       }));
+    } else {
+      // TODO: teacher lesson select
     }
 
     return {

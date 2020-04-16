@@ -22,52 +22,45 @@
           <td
             :key="day"
             v-for="(_, day) in days">
-            <template v-if="timetable.plan[day][hour]">
-              <div class="d-flex" v-if="type === 'class'">
-                <b-form-checkbox
-                  :title="'_lp.timetable.lock-lesson' | translate"
-                  :unchecked-value="null"
-                  :value="timetable.plan[day][hour] && timetable.plan[day][hour].lessonId
-                    ? timetable.plan[day][hour].lessonId : true"
-                  v-b-tooltip.hover
-                  v-model="locked[day][hour]"
-                  @change="changedManual(day, hour)"
-                />
-                <div>
-                  <b
-                    v-if="!locked[day][hour]">
+            <div class="d-flex">
+              <b-form-checkbox
+                :title="'_lp.timetable.lock-lesson' | translate"
+                :unchecked-value="null"
+                :value="timetable.plan[day][hour] && timetable.plan[day][hour].lessonId
+                  ? timetable.plan[day][hour].lessonId : true"
+                v-b-tooltip.hover
+                v-model="locked[day][hour]"
+                @change="changedManual(day, hour)"
+              />
+              <div v-if="timetable.plan[day][hour] || locked[day][hour]">
+                <template v-if="!locked[day][hour]">
+                  <b v-if="type === 'class'">
                     {{ timetable.plan[day][hour].lessonName }}
                   </b>
-                  <b-form-select
-                    :options="lessonSelect"
-                    @change="changedManual(day, hour)"
-                    v-else
-                    v-model="locked[day][hour]"
-                  />
-                  <p class="mb-0" v-if="timetable.plan[day][hour].teachers">
+                  <b v-else>
+                    {{ timetable.plan[day][hour].className }}
+                  </b>
+                </template>
+                <b-form-select
+                  :options="lessonSelect"
+                  @change="changedManual($event, day, hour)"
+                  v-else
+                  v-model="locked[day][hour]"
+                />
+
+                <template v-if="timetable.plan[day][hour]">
+                  <p class="mb-0" v-if="type === 'teacher'">
+                    {{ timetable.plan[day][hour].lessonName }}
+                  </p>
+                  <p class="mb-0" v-else-if="timetable.plan[day][hour].teachers">
                     <span
                       v-for="teacher in timetable.plan[day][hour].teachers"
                       :key="teacher">
                       {{ teachers[teacher].name }}
                     </span>
                   </p>
-                </div>
+                </template>
               </div>
-              <template v-if="type === 'teacher'">
-                <b>{{ timetable.plan[day][hour].className }}</b>
-
-                <p class="mb-0">
-                  {{ timetable.plan[day][hour].lessonName }}
-                </p>
-              </template>
-            </template>
-            <div v-else-if="type === 'class'">
-              <b-button
-                class="mt-3"
-                variant="primary"
-                @click="locked[day][hour] = true">
-                {{ '_lp.timetable.lock-lesson' | translate }}
-              </b-button>
             </div>
           </td>
         </tr>
@@ -91,7 +84,7 @@ export default {
       }
     });
 
-    let lessonSelect;
+    let lessonSelect = [];
     if (this.timetable.classId) {
       // build select box for manual selecting lessons
       const classDef = lessonPlanning[this.$route.params.id].classes[this.timetable.classId];
@@ -102,7 +95,19 @@ export default {
         value: lessonId,
       }));
     } else {
-      // TODO: teacher lesson select
+      const { classes } = lessonPlanning[this.$route.params.id];
+      Object.keys(classes).forEach((classId) => {
+        const { lessons } = classes[classId];
+        Object.keys(lessons).forEach((lessonId) => {
+          const lesson = lessons[lessonId];
+          if (lesson.teachers.indexOf(this.timetable.teacherId) !== -1) {
+            lessonSelect.push({
+              text: `${lesson.name} (${classes[classId].name})`,
+              value: lessonId,
+            });
+          }
+        });
+      });
     }
 
     return {
@@ -118,9 +123,12 @@ export default {
     for (let day = 0; day < 5; day += 1) {
       this.locked[day] = {};
       for (let hour = 0; hour < 8; hour += 1) {
+        // setup locked info
         if (this.timetable.plan[day][hour]
           && this.timetable.plan[day][hour].locked) {
           this.locked[day][hour] = this.timetable.plan[day][hour].lessonId;
+        } else {
+          this.locked[day][hour] = false;
         }
       }
     }
@@ -135,19 +143,31 @@ export default {
      * @param      {number}  day     day
      * @param      {number}  hour    hour
      */
-    async changedManual(day, hour) {
+    async changedManual(previousLesson, day, hour) {
       // wait until dropdown was updated
       await new Promise((resolve) => setTimeout(resolve, 200));
 
       // only update when the locking was removed or a lesson selected
       if (this.locked[day][hour] !== true) {
+        // resolve class id for lesson
+        const { classes } = lessonPlanning[this.$route.params.id];
+        const lessonId = this.locked[day][hour];
+        const classId = Object.keys(classes).filter((id) => {
+          if (classes[id].lessons[lessonId]) {
+            return true;
+          }
+          return false;
+        })[0];
         // send update event to parent, so the plan can be recalculated
         this.$emit('update', {
-          classId: this.timetable.classId,
+          classId,
           day,
           hour,
+          previousLesson,
           lessonId: this.locked[day][hour],
         });
+      } else {
+        this.$forceUpdate();
       }
     },
   },

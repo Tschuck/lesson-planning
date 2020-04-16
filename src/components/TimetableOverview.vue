@@ -202,23 +202,24 @@ export default {
      * Update the display arrays
      */
     setPlans() {
+      const school = this.tg.school;
       // map the plans to arrays, so they can be better displayed
       this.plans = {
         classes: [],
         teachers: [],
       };
-      Object.keys(this.tg.classes).forEach((classId) => {
+      Object.keys(school.classes).forEach((classId) => {
         this.plans.classes.push({
           classId,
-          name: this.tg.classes[classId].name,
+          name: school.classes[classId].name,
           plan: this.tg[classId],
         });
       });
 
-      Object.keys(this.tg.teachers).forEach((teacherId) => {
+      Object.keys(school.teachers).forEach((teacherId) => {
         this.plans.teachers.push({
           teacherId,
-          name: this.tg.teachers[teacherId].name,
+          name: school.teachers[teacherId].name,
           plan: this.tg[teacherId],
         });
       });

@@ -15,20 +15,20 @@ class TimetableGenerator {
       return;
     }
 
-    const school = lessonPlanning[schoolId];
     this.blocked = { };
-    this.classes = school.classes;
     this.schoolId = schoolId;
-    this.teachers = school.teachers;
+    this.school = lessonPlanning[schoolId];
 
-    const timetable = school.timetable || { };
+    const timetable = this.school.timetable || { };
     // create plan arrays for classes and teachers
     [
-      ...Object.keys(this.classes),
-      ...Object.keys(this.teachers),
+      ...Object.keys(this.school.classes),
+      ...Object.keys(this.school.teachers),
     ].forEach((key) => {
       this[key] = timetable[key] || planPreset();
     });
+
+    this.updateForConfig();
   }
 
   /**
@@ -46,8 +46,8 @@ class TimetableGenerator {
    */
   getFlat() {
     const flat = [];
-    Object.keys(this.classes).forEach((classId) => {
-      const classDef = this.classes[classId];
+    Object.keys(this.school.classes).forEach((classId) => {
+      const classDef = this.school.classes[classId];
       const lessonKeys = Object.keys(classDef.lessons);
 
       lessonKeys.forEach((lessonId) => {
@@ -74,10 +74,11 @@ class TimetableGenerator {
    * Create a new timetable for a school configuration.
    */
   update() {
+    this.updateForConfig();
+
     // use a clone, until all changes were successfull
     const clone = this.clone();
     const flatted = clone.getFlat();
-    // const beforeLength = flatted.length;
 
     // reset previous plan one the clone but ignore locked entries
     const classIds = Object.keys(clone.classes);
@@ -109,23 +110,8 @@ class TimetableGenerator {
       }
     }
 
-    for (let i = 0; i < classIds.length; i += 1) {
-      const classId = classIds[i];
-      for (let dayIndex = 0; dayIndex < 5; dayIndex += 1) {
-        for (let hourIndex = 0; hourIndex < maxHours; hourIndex += 1) {
-          if (clone[classId][dayIndex][hourIndex]) {
-            console.log(clone[classId][dayIndex][hourIndex]);
-          }
-        }
-      }
-    }
-
     // iterate through all flatted entries and try to resolve them
     while (flatted.length) {
-      // uncomment for debugging
-      // console.log(`processing flatted ${flatted.length} / ${beforeLength}`);
-      // console.log(`  - classId:  ${flatted[0].classId}`);
-      // console.log(`  - lessonId: ${flatted[0].lessonId}`);
       const lessonShifts = clone.getLessonShifts(flatted[0]);
       lessonShifts.forEach(({ foundSlot, lesson }) => {
         // assign the lesson to the time slot and remove it from the flatted array
@@ -136,11 +122,11 @@ class TimetableGenerator {
     }
 
     // if everything was valid, use it
-    Object.keys(this.classes).forEach((key) => {
+    Object.keys(this.school.classes).forEach((key) => {
       this[key] = cloneDeep(clone[key]);
     });
 
-    Object.keys(this.teachers).forEach((key) => {
+    Object.keys(this.school.teachers).forEach((key) => {
       this[key] = cloneDeep(clone[key]);
     });
 
@@ -161,7 +147,7 @@ class TimetableGenerator {
       todos.push({ foundSlot, lesson });
     } else {
       // iterate through all classes and try to shift lessons
-      const classIds = Object.keys(this.classes);
+      const classIds = Object.keys(this.school.classes);
       const clone = this.clone();
 
       for (let i = 0; i < classIds.length; i += 1) {
@@ -250,7 +236,7 @@ class TimetableGenerator {
           // check if teachers have times
           /* eslint-disable no-loop-func */
           teachers.forEach((teacherId) => {
-            const teacherConfig = this.teachers[teacherId];
+            const teacherConfig = this.school.teachers[teacherId];
             const teacherPlan = this[teacherId][dayIndex];
 
             // check teacher config, if the teacher is in the house at this time
@@ -293,6 +279,10 @@ class TimetableGenerator {
    * @param      {number}  arg2.hourIndex  hour at this day
    */
   assignLesson(lesson, { dayIndex, hourIndex }) {
+    if (this[lesson.classId][dayIndex][hourIndex]) {
+      this.revertLesson(this[lesson.classId][dayIndex][hourIndex], { dayIndex, hourIndex });
+    }
+
     // apply the lesson to the class plan
     this[lesson.classId][dayIndex][hourIndex] = lesson;
     // also assign to teachers plan
@@ -324,11 +314,11 @@ class TimetableGenerator {
   serialize() {
     const clone = { };
 
-    Object.keys(this.classes).forEach((key) => {
+    Object.keys(this.school.classes).forEach((key) => {
       clone[key] = cloneDeep(this[key]);
     });
 
-    Object.keys(this.teachers).forEach((key) => {
+    Object.keys(this.school.teachers).forEach((key) => {
       clone[key] = cloneDeep(this[key]);
     });
 
@@ -364,6 +354,32 @@ class TimetableGenerator {
   isSlotBlocked(classId, dayIndex, hourIndex) {
     return (this[classId][dayIndex][hourIndex] && this[classId][dayIndex][hourIndex].locked)
       || this.blocked[`${classId}-${dayIndex}-${hourIndex}`];
+  }
+
+  /**
+   * Update all lessons, classes and texts to latest configuration.
+   */
+  updateForConfig() {
+    [
+      ...Object.keys(this.school.classes),
+      ...Object.keys(this.school.teachers),
+    ].forEach((key) => {
+      // apply latest texts and specifications from user configuration
+      for (let dayIndex = 0; dayIndex < 5; dayIndex += 1) {
+        for (let hourIndex = 0; hourIndex < maxHours; hourIndex += 1) {
+          const lesson = this[key][dayIndex][hourIndex];
+          if (lesson) {
+            const classDef = this.school.classes[lesson.classId];
+            const orgLesson = classDef.lessons[lesson.lessonId];
+
+            lesson.className = classDef.name;
+            lesson.lessonName = orgLesson.name;
+            lesson.lessons = orgLesson.lessons;
+            lesson.teachers = orgLesson.teachers;
+          }
+        }
+      }
+    });
   }
 }
 

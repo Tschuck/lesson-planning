@@ -170,6 +170,16 @@ class LessonPlanning {
   }
 
   /**
+   * Set the active plans for a specific school
+   *
+   * @param      {string}      schoolId  school id to set the plans for
+   * @param      {Array<any>}  plans     plans to set
+   */
+  setTimetable(schoolId, timetable) {
+    this[schoolId].timetable = timetable;
+  }
+
+  /**
    * Save the current states to the browser localStorage.
    */
   save() {

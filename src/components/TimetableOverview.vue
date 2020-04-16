@@ -14,7 +14,10 @@
       />
     </div>
 
-    <div class="d-flex flex-column" style="max-height: 100%;">
+    <b-overlay
+      class="d-flex flex-column"
+      style="max-height: 100%;"
+      :show="generating">
       <div class="py-1 px-5 d-flex border-bottom">
         <div
           :class="{ 'bg-primary text-light': activeView === 0}"
@@ -28,6 +31,16 @@
           class="p-3">
           {{ '_lp.teachers.multiple' | translate }}
         </div>
+
+        <span class="mx-auto" />
+
+        <b-button
+          @click="reset()"
+          class="mt-3"
+          v-if="plans"
+          variant="danger">
+          {{ '_lp.timetable.reset' | translate }}
+        </b-button>
       </div>
 
       <div class="overflow-auto" v-if="plans">
@@ -38,16 +51,27 @@
           v-for="(plan, index) in plans[activeView === 0 ? 'classes' : 'teachers']"
         />
       </div>
-    </div>
+      <div class="text-center p-5" v-else>
+        <h4>{{ '_lp.timetable.missing' | translate }}</h4>
+
+        <b-button
+          class="mt-3"
+          variant="primary"
+          @click="generateNewPlan()">
+          {{ '_lp.timetable.create' | translate }}
+        </b-button>
+      </div>
+    </b-overlay>
   </div>
 </template>
 
 <script>
+import lessonPlanning from '../LessonPlanning';
 import Timetable from './Timetable';
 import TimetableGenerator from '../TimetableGenerator';
 
 export default {
-  name: 'Schools',
+  name: 'TimetableOverview',
   components: {
     'lp-timetable': Timetable,
   },
@@ -55,23 +79,69 @@ export default {
     return {
       active: false,
       activeView: 0,
+      generating: false,
       plans: null,
+      tg: null,
     };
   },
   methods: {
     /**
      * Toggle the timetable panel and genewrate new plans, when active state is true.
      */
-    async toggle() {
+    toggle() {
       this.active = !this.active;
-
       if (this.active) {
-        this.plans = (new TimetableGenerator(this.$route.params.id)).generate();
-      } else {
-        this.plans = null;
+        this.tg = new TimetableGenerator(this.$route.params.id);
+        // if a timetable was generated before, show it directly
+        if (lessonPlanning[this.$route.params.id].timetable) {
+          this.setPlans();
+        }
       }
+    },
+    /**
+     * Reset current configuration and create a new timetable
+     */
+    reset() {
+      delete lessonPlanning[this.$route.params.id].timetable;
+      this.tg = new TimetableGenerator(this.$route.params.id);
+      this.generateNewPlan();
+    },
+    /**
+     * Generate a new plan, with the current configuration
+     */
+    async generateNewPlan() {
+      // ensure to show loading screen
+      this.generating = true;
 
-      console.log(this.plans);
+      // get new timetable
+      await new Promise((resolve) => setTimeout(resolve, 200));
+      this.tg.update();
+      this.setPlans();
+
+      this.generating = false;
+    },
+    /**
+     * Update the display arrays
+     */
+    setPlans() {
+      // map the plans to arrays, so they can be better displayed
+      this.plans = {
+        classes: [],
+        teachers: [],
+      };
+      Object.keys(this.tg.classes).forEach((classId) => {
+        this.plans.classes.push({
+          name: this.tg.classes[classId].name,
+          plan: this.tg[classId],
+        });
+      });
+
+      Object.keys(this.tg.teachers).forEach((teacherId) => {
+        this.plans.teachers.push({
+          name: this.tg.teachers[teacherId].name,
+          plan: this.tg[teacherId],
+        });
+      });
     },
   },
 };

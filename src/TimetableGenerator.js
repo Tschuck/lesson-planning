@@ -13,12 +13,13 @@ class TimetableGenerator {
     this.schoolId = schoolId;
     this.teachers = school.teachers;
 
+    const timetable = school.timetable || { };
     // create plan arrays for classes and teachers
     [
       ...Object.keys(this.classes),
       ...Object.keys(this.teachers),
     ].forEach((key) => {
-      this[key] = planPreset();
+      this[key] = timetable[key] || planPreset();
     });
   }
 
@@ -70,7 +71,7 @@ class TimetableGenerator {
   /**
    * Create a new timetable for a school configuration.
    */
-  generate() {
+  update() {
     const flatted = this.getFlat();
     const beforeLength = flatted.length;
 
@@ -88,27 +89,7 @@ class TimetableGenerator {
       flatted.shift();
     }
 
-    // create plan arrays for classes and teachers
-    const classPlans = [];
-    Object.keys(this.classes).forEach((classId) => {
-      classPlans.push({
-        name: this.classes[classId].name,
-        plan: this[classId],
-      });
-    });
-
-    const teacherPlans = [];
-    Object.keys(this.teachers).forEach((teacherId) => {
-      teacherPlans.push({
-        name: this.teachers[teacherId].name,
-        plan: this[teacherId],
-      });
-    });
-
-    return {
-      classes: classPlans,
-      teachers: teacherPlans,
-    };
+    this.save();
   }
 
   /**
@@ -162,18 +143,6 @@ class TimetableGenerator {
           }
         }
       }
-
-      // // sort for lowest amount of switches
-      // possibleShifts = possibleShifts.sort((a, b) => {
-      //   if (a.length > b.length) {
-      //     return 1;
-      //   } else if (a.length < b.length) {
-      //     return -1;
-      //   }
-
-      //   return 0;
-      // });
-      // return possibleShifts[0];
     }
 
     return todos;
@@ -214,8 +183,8 @@ class TimetableGenerator {
         isValid = false;
       } else {
         // allow the same lesson only 2 times a day
-        /* eslint-disable arrow-parens */
-        const lessonCount = classPlan[dayIndex].filter((sub) => sub && sub.lessonId === lessonId).length;
+        const lessonCount = classPlan[dayIndex].filter((sub) => sub && sub.lessonId === lessonId)
+          .length;
         if (lessonCount > 1) {
           isValid = false;
         // check if teachers have time at this day
@@ -289,6 +258,30 @@ class TimetableGenerator {
     lesson.teachers.forEach((teacherId) => {
       this[teacherId][dayIndex][hourIndex] = null;
     });
+  }
+
+  /**
+   * Create a new object without class reference to save it within the lesson as json export.
+   */
+  serialize() {
+    const clone = { };
+
+    Object.keys(this.classes).forEach((key) => {
+      clone[key] = cloneDeep(this[key]);
+    });
+
+    Object.keys(this.teachers).forEach((key) => {
+      clone[key] = cloneDeep(this[key]);
+    });
+
+    return clone;
+  }
+
+  /**
+   * Save the current configuration to the school.
+   */
+  save() {
+    lessonPlanning.setTimetable(this.schoolId, this.serialize());
   }
 
   /**

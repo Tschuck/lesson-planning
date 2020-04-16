@@ -48,7 +48,11 @@
       "title": "Teachers"
     },
     "timetable": {
-      "create": "Generate Timetable"
+      "create": "Generate Timetable",
+      "generating": "Generating Timetable...",
+      "missing": "No Timetable was created before, please generate a new one.",
+      "reset": "Reset Timetable",
+      "lock-lesson": "Force lesson manually"
     },
     "title": "Lesson planning"
   }

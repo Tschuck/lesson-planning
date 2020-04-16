@@ -2,7 +2,7 @@
   <div class="px-5 py-3">
     <h3>{{ timetable.name }}</h3>
 
-    <table class="table border">
+    <table class="table border" v-if="!loading">
       <thead>
         <tr>
           <th class="bg-white" scope="col">{{ '_lp.hour' | translate }}</th>
@@ -22,25 +22,25 @@
           <td
             :key="day"
             v-for="(_, day) in days">
-            <template v-if="timetable.plan[day][hour]">
+            <div
+              class="d-flex"
+              v-if="timetable.plan[day][hour]">
               <template v-if="type === 'class'">
-                <div>
-                  <b-form-checkbox
-                    v-model="status"
-                    value="true"
-                    unchecked-value="false"
-                  >
-                  </b-form-checkbox>
-                  <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
-                    <b-dropdown-item>First Action</b-dropdown-item>
-                    <b-dropdown-item>Second Action</b-dropdown-item>
-                    <b-dropdown-item>Third Action</b-dropdown-item>
-                    <b-dropdown-divider></b-dropdown-divider>
-                    <b-dropdown-item active>Active action</b-dropdown-item>
-                    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-                  </b-dropdown>
+                <b-form-checkbox
+                  :title="'_lp.timetable.lock-lesson' | translate"
+                  :unchecked-value="false"
+                  :value="true"
+                  v-b-tooltip.hover
+                  v-model="timetable.plan[day][hour].locked"
+                >
+                </b-form-checkbox>
+                <div v-if="timetable.plan[day][hour].locked">
+                  <b-form-select
+                    v-model="selected"
+                    :options="[]"
+                  />
                 </div>
-                <div>
+                <div v-else>
                   <b>{{ timetable.plan[day][hour].lessonName }}</b>
 
                   <p class="mb-0">
@@ -59,7 +59,15 @@
                   {{ timetable.plan[day][hour].lessonName }}
                 </p>
               </template>
-            </template>
+            </div>
+            <div v-else>
+              <b-button
+                class="mt-3"
+                variant="primary"
+                @click="fillEmpty(day, hour)">
+                {{ '_lp.timetable.lock-lesson' | translate }}
+              </b-button>
+            </div>
           </td>
         </tr>
       </tbody>
@@ -85,10 +93,19 @@ export default {
     return {
       days: new Array(5),
       hours: new Array(maxHours),
+      loading: false,
       teachers: lessonPlanning[this.$route.params.id].teachers,
     };
   },
-  methods: { },
+  methods: {
+    async fillEmpty(hour, day) {
+      this.loading = true;
+      this.timetable.plan[day][hour] = { locked: true };
+
+      await new Promise((resolve) => setTimeout(resolve));
+      this.loading = false;
+    },
+  },
 };
 </script>
 

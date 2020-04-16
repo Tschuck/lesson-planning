@@ -48,7 +48,11 @@
       "title": "Kollegium"
     },
     "timetable": {
-      "create": "Stundenplan erstellen"
+      "create": "Stundenplan erstellen",
+      "generating": "Generiere Stundenplan...",
+      "missing": "Es wurde noch kein Stundenplan generiert, bitte erstellen Sie einen Neuen.",
+      "reset": "Stundenplan zurücksetzen",
+      "lock-lesson": "Stunde manuell festlegen"
     },
     "title": "Stundenplanung"
   }

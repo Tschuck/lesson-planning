@@ -91,14 +91,17 @@ export default {
       }
     });
 
-    // build select box for manual selecting lessons
-    const classDef = lessonPlanning[this.$route.params.id].classes[this.timetable.classId];
-    const lessons = classDef.lessons;
-    const lessonSelect = Object.keys(lessons).map((lessonId) => ({
-      text: lessons[lessonId].name,
-      // IMPORTANT: Use same structure as the `getFlat` method of the TimetableGenerator;
-      value: lessonId,
-    }));
+    let lessonSelect;
+    if (this.timetable.classId) {
+      // build select box for manual selecting lessons
+      const classDef = lessonPlanning[this.$route.params.id].classes[this.timetable.classId];
+      const lessons = classDef.lessons;
+      lessonSelect = Object.keys(lessons).map((lessonId) => ({
+        text: lessons[lessonId].name,
+        // IMPORTANT: Use same structure as the `getFlat` method of the TimetableGenerator;
+        value: lessonId,
+      }));
+    }
 
     return {
       days: new Array(5),

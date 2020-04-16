@@ -99,3 +99,11 @@ exports.createNotifierCallback = () => {
     })
   }
 }
+
+exports.publicPath = (url) => {
+  if (process.env.NODE_ENV === 'production') {
+    return `/lesson-planning/${url}`;
+  }
+
+  return url;
+};

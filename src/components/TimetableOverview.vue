@@ -137,31 +137,18 @@ export default {
       // get new timetabl
       try {
         if ($event) {
-          const { classId, lessonId, day, hour } = $event;
+          const { lessonId, previousLesson, dayIndex, hourIndex } = $event;
 
           // if a lesson was locked, assign it
           if (lessonId) {
-            if (this.tg[classId][day][hour] && this.tg[classId][day][hour].lessonId === lessonId) {
+            if (previousLesson === lessonId) {
               skipUpdate = true;
             }
 
             // update original timetable with new lesson
-            const classDef = lessonPlanning[this.$route.params.id].classes[classId];
-            const lesson = classDef.lessons[lessonId];
-            this.tg.assignLesson({
-              classId,
-              className: classDef.name,
-              lessonId,
-              lessonName: lesson.name,
-              lessons: lesson.lessons,
-              locked: true,
-              teachers: lesson.teachers,
-            }, { dayIndex: day, hourIndex: hour });
+            this.tg.lockLesson(lessonId, { dayIndex, hourIndex });
           } else {
-            this.tg.revertLesson(
-              this.tg[classId][day][hour],
-              { dayIndex: day, hourIndex: hour },
-            );
+            this.tg.revertLesson(previousLesson, { dayIndex, hourIndex });
           }
         }
         // do not update timetable, when the same lesson is selected as before
@@ -169,7 +156,6 @@ export default {
           // ensure to show loading screen
           this.generating = true;
           await new Promise((resolve) => setTimeout(resolve, 100));
-
           this.tg.update();
           this.setPlans();
         }
@@ -178,13 +164,11 @@ export default {
 
         // show message
         if ($event) {
-          const { classId, day, hour } = $event;
+          const { previousLesson, dayIndex, hourIndex } = $event;
           // revert previous configuration
-          this.tg.revertLesson(
-            this.tg[classId][day][hour],
-            { dayIndex: day, hourIndex: hour },
-          );
-          this.generateNewPlan();
+          this.tg.assignLesson(previousLesson, { dayIndex, hourIndex });
+          this.tg.update();
+          this.setPlans();
 
           this.$bvModal.show('manual-error-modal');
         } else {
@@ -220,7 +204,7 @@ export default {
         this.plans.teachers.push({
           teacherId,
           name: school.teachers[teacherId].name,
-          plan: this.tg[teacherId],
+          plan: this.tg.getTeacherPlan(teacherId),
         });
       });
     },

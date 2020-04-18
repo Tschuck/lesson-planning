@@ -30,7 +30,12 @@
                   ? timetable.plan[day][hour].lessonId : true"
                 v-b-tooltip.hover
                 v-model="locked[day][hour]"
-                @change="changedManual(day, hour)"
+                @change="changedManual(
+                  timetable.plan[day][hour] && timetable.plan[day][hour].lessonId
+                    ? timetable.plan[day][hour].lessonId : null,
+                  day,
+                  hour
+                )"
               />
               <div v-if="timetable.plan[day][hour] || locked[day][hour]">
                 <template v-if="!locked[day][hour]">
@@ -143,28 +148,19 @@ export default {
      * @param      {number}  day     day
      * @param      {number}  hour    hour
      */
-    async changedManual(previousLesson, day, hour) {
+    async changedManual(previousLesson, dayIndex, hourIndex) {
       // wait until dropdown was updated
       await new Promise((resolve) => setTimeout(resolve, 200));
 
       // only update when the locking was removed or a lesson selected
-      if (this.locked[day][hour] !== true) {
-        // resolve class id for lesson
-        const { classes } = lessonPlanning[this.$route.params.id];
-        const lessonId = this.locked[day][hour];
-        const classId = Object.keys(classes).filter((id) => {
-          if (classes[id].lessons[lessonId]) {
-            return true;
-          }
-          return false;
-        })[0];
+      if (this.locked[dayIndex][hourIndex] !== true) {
         // send update event to parent, so the plan can be recalculated
         this.$emit('update', {
-          classId,
-          day,
-          hour,
+          dayIndex,
+          hourIndex,
           previousLesson,
-          lessonId: this.locked[day][hour],
+          // do not fill this with fallback to previous lesson!
+          lessonId: this.locked[dayIndex][hourIndex],
         });
       } else {
         this.$forceUpdate();

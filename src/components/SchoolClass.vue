@@ -42,7 +42,10 @@
           <thead>
             <tr>
               <th class="bg-white" scope="col">{{ '_lp.lesson.title' | translate }}</th>
-              <th class="bg-white" scope="col">{{ '_lp.lesson.hours' | translate }}</th>
+              <th class="bg-white" scope="col">
+                {{ '_lp.lesson.hours' | translate }}
+                ({{getAmountOfHours()}})
+              </th>
               <th class="bg-white" scope="col">{{ '_lp.lesson.teachers' | translate }}</th>
               <th class="bg-white" scope="col">{{ '_lp.lesson.lesson-ref' | translate }}</th>
               <th class="bg-white" scope="col"></th>
@@ -176,6 +179,16 @@ export default {
         ));
 
       return options;
+    },
+    getAmountOfHours() {
+      const { lessons } = lessonPlanning[this.$route.params.id].classes[this.$route.params.classId];
+      let hours = 0;
+
+      Object.keys(lessons).forEach((lessonKey) => {
+        hours += parseInt(lessons[lessonKey].hours, 10);
+      });
+
+      return hours;
     },
   },
 };

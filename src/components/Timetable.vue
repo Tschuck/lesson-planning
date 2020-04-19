@@ -26,13 +26,13 @@
               <b-form-checkbox
                 :title="'_lp.timetable.lock-lesson' | translate"
                 :unchecked-value="null"
-                :value="timetable.plan[day][hour] && timetable.plan[day][hour].lessonId
-                  ? timetable.plan[day][hour].lessonId : true"
+                :value="timetable.plan[day][hour] && timetable.plan[day][hour].id
+                  ? timetable.plan[day][hour].id : true"
                 v-b-tooltip.hover
                 v-model="locked[day][hour]"
                 @change="changedManual(
-                  timetable.plan[day][hour] && timetable.plan[day][hour].lessonId
-                    ? timetable.plan[day][hour].lessonId : null,
+                  timetable.plan[day][hour] && timetable.plan[day][hour].id
+                    ? timetable.plan[day][hour].id : null,
                   day,
                   hour
                 )"
@@ -40,10 +40,10 @@
               <div v-if="timetable.plan[day][hour] || locked[day][hour]">
                 <template v-if="!locked[day][hour]">
                   <b v-if="type === 'class'">
-                    {{ timetable.plan[day][hour].lessonName }}
+                    {{ timetable.plan[day][hour].instance.name }}
                   </b>
                   <b v-else>
-                    {{ timetable.plan[day][hour].className }}
+                    {{ getClassName(timetable.plan[day][hour].classId) }}
                   </b>
                 </template>
                 <b-form-select
@@ -55,7 +55,7 @@
 
                 <template v-if="timetable.plan[day][hour]">
                   <p class="mb-0" v-if="type === 'teacher'">
-                    {{ timetable.plan[day][hour].lessonName }}
+                    {{ timetable.plan[day][hour].instance.name }}
                   </p>
                   <p class="mb-0" v-else-if="timetable.plan[day][hour].teachers">
                     <span
@@ -165,6 +165,9 @@ export default {
       } else {
         this.$forceUpdate();
       }
+    },
+    getClassName(id) {
+      return lessonPlanning[this.$route.params.id].classes[id].name;
     },
   },
 };

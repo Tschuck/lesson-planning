@@ -11,7 +11,7 @@ class TimetableGenerator {
     if (preset) {
       Object.keys(preset).forEach((key) => {
         // if it contains a minus, its a generated id and should be copied without reference
-        this[key] = JSON.parse(JSON.stringify(preset[key]));
+        this[key] = preset[key];
       });
       return;
     }
@@ -105,8 +105,7 @@ class TimetableGenerator {
 
     // iterate through all flatted entries and try to resolve them
     while (flatted.length) {
-      console.log(`processing flatted ${flatted.length} / ${beforeLength}`);
-      console.log(`  - lessonId: ${flatted[0].id}`);
+      console.log(`- ${flatted.length} / ${beforeLength}`);
       const lessonShifts = clone.getLessonShifts(flatted[0]);
 
       if (!lessonShifts) {
@@ -132,12 +131,12 @@ class TimetableGenerator {
   /**
    * Return a array of lesson and slots that should be shifted / reassigned.
    *
-   * @param      {any}  lesson     lesson object
-   * @param      {Array}   [todos=[{foundSlot, lesson}]  ]  The todos
+   * @param      {any}     lesson               lesson object
+   * @param      {Array}   [todos=[{foundSlot,  lesson}]  ]  The todos
+   * @param      {number}  [maxDeep=30]         maximum deep to dig into
    * @return     {Array}   todos
    */
-  getLessonShifts(lesson, todos = [], deep = 0) {
-    console.log(`---- ${lesson.id} - deep ${deep}} -----`);
+  getLessonShifts(lesson, todos = [], maxDeep = 30, deep = 0) {
     let foundSlot = this.getFreeLessonSlot(lesson);
 
     if (foundSlot) {
@@ -147,56 +146,75 @@ class TimetableGenerator {
     }
 
     // iterate through all classes and try to shift lessons
-    const clone = this.clone();
     const classIds = Object.keys(this.school.classes);
     // have a look at all classes that are referenced to this lesson
     const refClasses = lesson.id.split('|||').map(id => this.getClassIdForLesson(id));
 
-    for (let i = 0; i < classIds.length; i += 1) {
-      const classId = classIds[i];
+    // iterate until the max deep is reached. For eacb while loop, the tries will be increased and
+    // the maxDeep that is passed into the recursive call is reduced by one. As a result of this,
+    // each while loop will dig on recursion deeper but will not directly go into full deep. It will
+    // first try to resolve the shifting with less shifts than possible.
+    let tries = 0;
+    while (tries < maxDeep) {
+      tries += 1;
+      const clone = this.clone();
+      for (let classIndex = 0; classIndex < classIds.length; classIndex += 1) {
+        const classId = classIds[classIndex];
 
-      for (let dayIndex = 0; dayIndex < 5; dayIndex += 1) {
-        for (let hourIndex = 0; hourIndex < maxHours; hourIndex += 1) {
-          // only try to use this block, if it wasnt blocked before by the recursion
-          if (!clone.isSlotBlocked(classId, { dayIndex, hourIndex })) {
-            // revert all lessons of all referenced classes at the specific time
-            const revertedLessons = refClasses
-              .map(refId => clone[refId][dayIndex][hourIndex])
-              .filter(revertedLesson => !!revertedLesson);
-            // if at least one lesson was found, we need to check if we can place the lesson here
-            if (revertedLessons.length > 0) {
-              revertedLessons.forEach(revertedLesson => {
-                clone.revertLesson(revertedLesson.id, { dayIndex, hourIndex });
-              });
-
-              // if we now found a free slot, assign the current lesson and try to resolve the
-              // reverted lessons
-              foundSlot = clone.getFreeLessonSlot(lesson);
-              if (foundSlot) {
-                // assign the new lesson and block this slot for the clone
-                clone.assignLesson(lesson, foundSlot);
-                clone.setBlocked(lesson.id, { dayIndex, hourIndex });
-                console.log(`blocked - ${lesson.id} - [${dayIndex}][${hourIndex}]`);
-
-                // search for a new slot for the reverted lessons
-                const cloneShifts = revertedLessons
-                  // eslint-disable-next-line no-loop-func
-                  .map((revertedLesson) => clone.getLessonShifts(
-                    revertedLesson,
-                    [{ foundSlot, lesson }], deep + 1),
-                  )
-                  .filter(shift => !!shift);
-                // only continue, if all other shifts could be assinged back
-                if (cloneShifts.length === revertedLessons.length) {
-                  console.log(`found slot for ${lesson.id} - [${dayIndex}][${hourIndex}]`);
-                  return [...todos].concat(...cloneShifts);
-                }
-              } else {
-                console.log(`reverted slot for ${lesson.id} - [${dayIndex}][${hourIndex}]`);
-                // revert the revert
+        for (let dayIndex = 0; dayIndex < 5; dayIndex += 1) {
+          for (let hourIndex = 0; hourIndex < maxHours; hourIndex += 1) {
+            // only try to use this block, if it wasnt blocked before by the recursion
+            if (!clone.isSlotBlocked(classId, { dayIndex, hourIndex })) {
+              // revert all lessons of all referenced classes at the specific time
+              const revertedLessons = [...new Set(
+                refClasses
+                  .map((refId) => clone[refId][dayIndex][hourIndex])
+                  .filter((revertedLesson) => !!revertedLesson),
+              )];
+              const isCurrIdIncluded = revertedLessons.filter(
+                (reverted) => reverted.id === lesson.id).length !== 0;
+              // if at least one lesson was found, we need to check if we can place the lesson here
+              if (revertedLessons.length > 0 && !isCurrIdIncluded) {
                 revertedLessons.forEach(revertedLesson => {
-                  clone.assignLesson(revertedLesson, { dayIndex, hourIndex });
+                  clone.revertLesson(revertedLesson.id, { dayIndex, hourIndex });
                 });
+
+                // if we now found a free slot, assign the current lesson and try to resolve the
+                // reverted lessons
+                foundSlot = clone.getFreeLessonSlot(lesson);
+                if (foundSlot) {
+                  // assign the new lesson and block this slot for the clone
+                  clone.assignLesson(lesson, foundSlot);
+                  clone.setBlocked(lesson.id, { dayIndex, hourIndex });
+
+                  // search for a new slot for the reverted lessons
+                  const cloneShifts = [];
+                  for (let i = 0; i < revertedLessons.length; i += 1) {
+                    const cloneShift = clone.getLessonShifts(
+                      revertedLessons[i],
+                      [],
+                      tries - 1,
+                      deep + 1,
+                    );
+
+                    if (cloneShift) {
+                      cloneShifts.push(cloneShift);
+                    } else {
+                      break;
+                    }
+                  }
+                  // only continue, if all other shifts could be assinged back
+                  if (cloneShifts.length === revertedLessons.length) {
+                    return [
+                      ...todos,
+                      { foundSlot, lesson },
+                    ].concat(...cloneShifts);
+                  }
+                } else {
+                  revertedLessons.forEach(revertedLesson => {
+                    clone.assignLesson(revertedLesson, { dayIndex, hourIndex });
+                  });
+                }
               }
             }
           }
@@ -215,16 +233,53 @@ class TimetableGenerator {
   getFreeLessonSlot(lesson) {
     const { id, teachers } = lesson;
     const ids = id.split('|||');
+    const affectedClasses = ids.map((affectedId) => this.getClassIdForLesson(affectedId));
     // preload teacher plans for this lesson, to only calculate it once per getFreeLessonSlot
     const teacherPlans = { };
     teachers.forEach((teacherId) => {
       teacherPlans[teacherId] = this.getTeacherPlan(teacherId);
     });
 
+    // sort days by amount of gap hours and free hours
+    const dayOrder = [0, 1, 2, 3, 4].sort((dayA, dayB) => {
+      // check for gaps
+      const gapsA = affectedClasses
+        .map((classId) => this.getAmountOfGaps(classId, dayA))
+        .reduce((a, b) => a + b, 0);
+      const gapsB = affectedClasses
+        .map((classId) => this.getAmountOfGaps(classId, dayB))
+        .reduce((a, b) => a + b, 0);
+
+      // sort by most amount of gaps first
+      if (gapsA > gapsB) {
+        return -1;
+      } else if (gapsA < gapsB) {
+        return 1;
+      }
+
+      // if equal gaps, check amount of lessons at this day
+      const hoursA = affectedClasses
+        .map((classId) => this[classId][dayA].filter((entry) => !!entry).length)
+        .sort()[0];
+      const hoursB = affectedClasses
+        .map((classId) => this[classId][dayB].filter((entry) => !!entry).length)
+        .sort()[0];
+
+      // sort by amount of hours at these days (reverse sorting to gaps sorting)
+      if (hoursA < hoursB) {
+        return -1;
+      } else if (hoursA > hoursB) {
+        return 1;
+      }
+
+      // if everything is the same
+      return 0;
+    });
+
     // iterate through all sorted days and hours (sortedDayIndex is only used for iterating days
     // with the most less hours)
     let sortedDayIndex = 0;
-    let dayIndex;
+    let dayIndex = dayOrder[sortedDayIndex];
     let hourIndex = 0;
 
     // search for available gaps
@@ -236,21 +291,18 @@ class TimetableGenerator {
       for (let idIndex = 0; idIndex < ids.length; idIndex += 1) {
         const lessonId = ids[idIndex];
         const classId = this.getClassIdForLesson(lessonId);
-        // sort days by amount of hours
         const classPlan = this[classId];
-        const sortedDays = [].concat(classPlan).sort((a, b) => a.length - b.length);
 
-        dayIndex = classPlan.indexOf(sortedDays[sortedDayIndex]);
         // get original day index, so the correct order will be used
-        const day = sortedDays[dayIndex];
+        const day = classPlan[dayIndex];
 
         if (day.length >= maxHours) {
           throw new Error('Toooo many hours');
         }
 
         // is their a gap in the class plan?
-        if (this.isSlotBlocked(classId, { dayIndex, hourIndex })
-            || classPlan[dayIndex][hourIndex]) {
+        if (classPlan[dayIndex][hourIndex]
+          || this.isSlotBlocked(classId, { dayIndex, hourIndex })) {
           isValid = false;
           break;
         } else {
@@ -288,7 +340,7 @@ class TimetableGenerator {
         found = true;
       } else {
         // increase last day index, so the next day in week will be prooved
-        sortedDayIndex++;
+        sortedDayIndex += 1;
         if (sortedDayIndex === 5) {
           if (hourIndex === maxHours) {
             return null;
@@ -297,6 +349,9 @@ class TimetableGenerator {
           sortedDayIndex = 0;
           hourIndex++;
         }
+
+        // update day index
+        dayIndex = dayOrder[sortedDayIndex];
       }
     }
 
@@ -354,7 +409,7 @@ class TimetableGenerator {
 
     // merge teachers and lessons of all references together
     const teachers = [...lesson.teachers];
-    const lessons = [...lesson.teachers];
+    const lessons = [...lesson.lessons];
     lesson.lessons.forEach((referencedId) => {
       const linkedClassId = this.getClassIdForLesson(referencedId);
       const linkedLesson = this.school.classes[linkedClassId].lessons[referencedId];
@@ -371,22 +426,13 @@ class TimetableGenerator {
     });
 
     return {
-      id: this.getReferenceLessonId(lesson, lessonId),
+      classId,
+      id: [lessonId, ...lesson.lessons].sort().join('|||'),
       instance: lesson,
       lessonId,
       lessons,
       teachers,
     };
-  }
-
-  /**
-   * Return a id for a lesson with multiple lesson references.
-   *
-   * @param      {<type>}  lesson  The lesson
-   * @return     {<type>}  The reference lesson identifier.
-   */
-  getReferenceLessonId(lesson, lessonId = lesson.lessonId) {
-    return [lessonId, ...lesson.lessons].sort().join('|||');
   }
 
   /**
@@ -461,7 +507,7 @@ class TimetableGenerator {
       const lesson = this[classId][dayIndex][hourIndex];
       if (lesson) {
         // apply latest texts and specifications from user configuration
-        this[classId][dayIndex][hourIndex] = lesson.getPlanLesson(lesson.lessonId, lesson.classId);
+        this[classId][dayIndex][hourIndex] = this.getPlanLesson(lesson.lessonId, lesson.classId);
       }
     });
   }
@@ -527,6 +573,31 @@ class TimetableGenerator {
     }
 
     return null;
+  }
+
+  /**
+   * Return the amount of lesson gaps a class has on a specific day.
+   *
+   * @param      {string}  classId   class id to check
+   * @param      {number}  dayIndex  day to check
+   * @return     {number}  amount of gaps
+   */
+  getAmountOfGaps(classId, dayIndex) {
+    const plan = this[classId][dayIndex];
+    let gaps = 0;
+    let lastFound = false;
+
+    for (let i = maxHours - 1; i > -1; i--) {
+      if (plan[i] && !lastFound) {
+        lastFound = true;
+      }
+
+      if (lastFound && !plan[i]) {
+        gaps += 1;
+      }
+    }
+
+    return gaps;
   }
 }
 

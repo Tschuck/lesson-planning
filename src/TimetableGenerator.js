@@ -105,7 +105,7 @@ class TimetableGenerator {
 
     // iterate through all flatted entries and try to resolve them
     while (flatted.length) {
-      console.log(`- ${flatted.length} / ${beforeLength}`);
+      console.log(`Inserting lesson to plan: ${flatted.length} / ${beforeLength}`);
       const lessonShifts = clone.getLessonShifts(flatted[0]);
 
       if (!lessonShifts) {
@@ -154,8 +154,8 @@ class TimetableGenerator {
     // the maxDeep that is passed into the recursive call is reduced by one. As a result of this,
     // each while loop will dig on recursion deeper but will not directly go into full deep. It will
     // first try to resolve the shifting with less shifts than possible.
-    let tries = 0;
-    while (tries < maxDeep) {
+    let tries = deep === 0 ? 0 : maxDeep - 1;
+    while (tries < maxDeep && maxDeep !== 0) {
       tries += 1;
       const clone = this.clone();
       for (let classIndex = 0; classIndex < classIds.length; classIndex += 1) {
@@ -190,6 +190,7 @@ class TimetableGenerator {
                   // search for a new slot for the reverted lessons
                   const cloneShifts = [];
                   for (let i = 0; i < revertedLessons.length; i += 1) {
+                    // allow gaps after deep 5
                     const cloneShift = clone.getLessonShifts(
                       revertedLessons[i],
                       [],
@@ -230,7 +231,7 @@ class TimetableGenerator {
    *
    * @param      {any}  lesson  lesson to apply to the plan
    */
-  getFreeLessonSlot(lesson) {
+  getFreeLessonSlot(lesson, enableGaps = true) {
     const { id, teachers } = lesson;
     const ids = id.split('|||');
     const affectedClasses = ids.map((affectedId) => this.getClassIdForLesson(affectedId));
@@ -298,6 +299,15 @@ class TimetableGenerator {
 
         if (day.length >= maxHours) {
           throw new Error('Toooo many hours');
+        }
+
+        // check gap validation only, if enableGaps is disabled
+        if (!enableGaps) {
+          const gaps = this.getGaps(classId, dayIndex);
+          if (gaps.indexOf(hourIndex) !== -1) {
+            isValid = false;
+            break;
+          }
         }
 
         // is their a gap in the class plan?
@@ -576,15 +586,15 @@ class TimetableGenerator {
   }
 
   /**
-   * Return the amount of lesson gaps a class has on a specific day.
+   * Return an array of gap indexes of a day.
    *
    * @param      {string}  classId   class id to check
    * @param      {number}  dayIndex  day to check
-   * @return     {number}  amount of gaps
+   * @return     {number}  list of gaps
    */
-  getAmountOfGaps(classId, dayIndex) {
+  getGaps(classId, dayIndex) {
     const plan = this[classId][dayIndex];
-    let gaps = 0;
+    const gaps = [];
     let lastFound = false;
 
     for (let i = maxHours - 1; i > -1; i--) {
@@ -593,11 +603,22 @@ class TimetableGenerator {
       }
 
       if (lastFound && !plan[i]) {
-        gaps += 1;
+        gaps.push(i);
       }
     }
 
     return gaps;
+  }
+
+  /**
+   * Return the amount of lesson gaps a class has on a specific day.
+   *
+   * @param      {string}  classId   class id to check
+   * @param      {number}  dayIndex  day to check
+   * @return     {number}  amount of gaps
+   */
+  getAmountOfGaps(classId, dayIndex) {
+    return this.getGaps(classId, dayIndex).lengths;
   }
 }
 

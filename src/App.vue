@@ -27,6 +27,10 @@ export default {
     height: 100%;
   }
 
+  #lp-root {
+    overflow-x: hidden;
+  }
+
   #print {
     display: none;
   }

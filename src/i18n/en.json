@@ -53,6 +53,7 @@
       "missing": "No Timetable was created before, please generate a new one.",
       "reset": "Reset Timetable",
       "lock-lesson": "Force lesson manually",
+      "print": "Print",
       "error": {
         "title": "Error",
         "invalid": "Invalid configuration of the lessons. No timetable could be generated.",

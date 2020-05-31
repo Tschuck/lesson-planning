@@ -9,7 +9,7 @@
       @click="toggle()">
       <i
         :title="$t(`_lp.timetable.create`)"
-        class="mdi mdi-timetable h4 ml-3 d-flex text-white align-items-center mb-0 h-100"
+        class="mb-0 ml-3 text-white mdi mdi-timetable h4 d-flex align-items-center h-100"
         v-b-tooltip.hover
       />
     </div>
@@ -18,7 +18,7 @@
       <template v-slot:modal-title>
         {{ '_lp.timetable.error.title' | translate }}
       </template>
-      <div class="d-block text-center">
+      <div class="text-center d-block">
         {{ '_lp.timetable.error.invalid' | translate }}
       </div>
     </b-modal>
@@ -27,7 +27,7 @@
       <template v-slot:modal-title>
         {{ '_lp.timetable.error.title' | translate }}
       </template>
-      <div class="d-block text-center">
+      <div class="text-center d-block">
         {{ '_lp.timetable.error.manual' | translate }}
       </div>
     </b-modal>
@@ -36,7 +36,7 @@
       class="d-flex flex-column"
       style="max-height: 100%;"
       :show="generating">
-      <div class="py-1 px-5 d-flex border-bottom">
+      <div class="px-5 py-1 d-flex border-bottom">
         <div
           :class="{ 'bg-primary text-light': activeView === 0}"
           @click="activeView = 0"
@@ -53,6 +53,14 @@
         <span class="mx-auto" />
 
         <b-button
+          @click="printPlans()"
+          class="mt-3 mr-3"
+          v-if="plans"
+          variant="primary">
+          {{ '_lp.timetable.print' | translate }}
+        </b-button>
+
+        <b-button
           @click="reset()"
           class="mt-3"
           v-if="plans"
@@ -61,7 +69,7 @@
         </b-button>
       </div>
 
-      <div class="overflow-auto" style="min-height: 100%" v-if="plans">
+      <div class="overflow-auto timetable-container" style="min-height: 100%" v-if="plans">
         <template v-if="!reloading">
           <lp-timetable
             :key="`${activeView}-${index}`"
@@ -72,7 +80,7 @@
           />
         </template>
       </div>
-      <div class="text-center p-5" v-else>
+      <div class="p-5 text-center" v-else>
         <h4>{{ '_lp.timetable.missing' | translate }}</h4>
 
         <b-button
@@ -207,6 +215,10 @@ export default {
           plan: this.tg.getTeacherPlan(teacherId),
         });
       });
+    },
+    printPlans() {
+      document.getElementById('print').innerHTML = this.$el.querySelectorAll('.timetable-container')[0].innerHTML;
+      window.print();
     },
   },
 };

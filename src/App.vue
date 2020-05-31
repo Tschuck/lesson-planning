@@ -1,5 +1,5 @@
 <template>
-  <router-view :key="$route.fullPath" />
+  <router-view id="lp-root" :key="$route.fullPath" />
 </template>
 
 <script>
@@ -25,5 +25,32 @@ export default {
 
   html, body {
     height: 100%;
+  }
+
+  #print {
+    display: none;
+  }
+
+  @media print {
+    @page {
+      size: A4 landscape;
+    }
+
+    #lp-root {
+      display: none !important;
+    }
+
+    #print {
+      display: block;
+
+      .timetable {
+        width: 297mm;
+        page-break-after: always;
+
+        /deep/ .custom-checkbox {
+          display: none !important;
+        }
+      }
+    }
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 py-3">
+  <div class="px-5 py-3 timetable">
     <h3>{{ timetable.name }}</h3>
 
     <table class="table border" v-if="!loading">

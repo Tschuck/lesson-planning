@@ -49,15 +49,16 @@
     },
     "timetable": {
       "create": "Stundenplan erstellen",
-      "generating": "Generiere Stundenplan...",
-      "missing": "Es wurde noch kein Stundenplan generiert, bitte erstellen Sie einen Neuen.",
-      "reset": "Stundenplan zurücksetzen",
-      "lock-lesson": "Stunde manuell festlegen",
       "error": {
-        "title": "Fehler",
         "invalid": "Ungültige Konfiguration der Stunden. Es konnte kein Stundenplan erstellt werden.",
-        "manual": "Für diese manuelle Konfiguration konnte kein Stundenplan gefunden werden. Die Änderung wurde rückgangig gemacht."
-      }
+        "manual": "Für diese manuelle Konfiguration konnte kein Stundenplan gefunden werden. Die Änderung wurde rückgangig gemacht.",
+        "title": "Fehler"
+      },
+      "generating": "Generiere Stundenplan...",
+      "lock-lesson": "Stunde manuell festlegen",
+      "missing": "Es wurde noch kein Stundenplan generiert, bitte erstellen Sie einen Neuen.",
+      "print": "Drucken",
+      "reset": "Stundenplan zurücksetzen"
     },
     "title": "Stundenplanung"
   }

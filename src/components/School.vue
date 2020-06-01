@@ -11,7 +11,7 @@
           <i
             :title="$t(`_lp.teachers.title`)"
             @click="$refs.teacherModal.show()"
-            class="mdi mdi-account-multiple h4 ml-3 d-flex text-white align-items-center mb-0 h-100"
+            class="mb-0 ml-3 text-white mdi mdi-account-multiple h4 d-flex align-items-center h-100"
             v-b-tooltip.hover
           />
         </div>
@@ -19,9 +19,21 @@
           <i
             :title="$t(`_lp.school.export`)"
             @click="exportSchool()"
-            class="mdi mdi-download h4 ml-3 d-flex text-white align-items-center mb-0 h-100"
+            class="mb-0 ml-3 text-white mdi mdi-download h4 d-flex align-items-center h-100"
             v-b-tooltip.hover
           />
+        </div>
+        <div>
+          <a
+            href="https://github.com/Tschuck/lesson-planning"
+            :title="$t(`_lp.github`)"
+            v-b-tooltip.hover
+            target="_blank"
+          >
+            <i
+              class="mb-0 ml-3 text-white mdi mdi-github h4 d-flex align-items-center h-100"
+            />
+          </a>
         </div>
         <lp-delete
           :id="this.$route.params.id"
@@ -33,27 +45,27 @@
 
     <div class="row" style="height: calc(100% - 66px)">
       <b-nav vertical
-        class="col-lg-2 col-md-3 border-right pr-0 overflow-auto flex-nowrap bg-light"
+        class="pr-0 overflow-auto col-lg-2 col-md-3 border-right flex-nowrap bg-light"
         style="max-height: 100%">
         <b-nav-item
           :key="classId"
           :style="`border-right: ${$route.params.classId === classId ? '5px solid #dcd1d8' : '0'}`"
           :to="`/school/${ $route.params.id }/${ classId }`"
-          class="border-bottom px-3 py-2"
+          class="px-3 py-2 border-bottom"
           v-for="classId in classes">
           {{ school.classes[classId].name }}
         </b-nav-item>
-        <b-nav-item class="border-bottom px-3 py-2"
+        <b-nav-item class="px-3 py-2 border-bottom"
           @click="addClass()">
           <i class="mdi mdi-plus"></i>
           {{ '_lp.class.add' | translate }}
         </b-nav-item>
       </b-nav>
-      <div class="col-lg-10 col-md-9 overflow-auto"
+      <div class="overflow-auto col-lg-10 col-md-9"
         style="max-height: 100%">
         <div class="p-4 h-100">
           <router-view v-if="$route.params.classId" />
-          <div class="text-center p-5" v-else>
+          <div class="p-5 text-center" v-else>
             <h5>
               {{ '_lp.class.empty' | translate }}
             </h5>

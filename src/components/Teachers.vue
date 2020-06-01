@@ -6,7 +6,7 @@
       ref="teacherModal"
       size="xl">
       <div
-        class="text-center p-5"
+        class="p-5 text-center"
         v-if="teachers.length === 0">
         <p>
           {{ '_lp.teachers.empty' | translate }}
@@ -119,7 +119,7 @@ export default {
       this.teachers.push(id);
     },
     hide() {
-      this.$hide();
+      this.$refs.teacherModal.hide();
     },
     show() {
       this.$refs.teacherModal.show();

@@ -25,8 +25,8 @@ const store = new Vuex.Store({
 // setup i18n
 Vue.use(vuexI18n.plugin, store);
 Object.keys(translations).forEach(key => Vue.i18n.add(key, translations[key]));
-// Vue.i18n.set(window.navigator.language.split('-')[0]);
-Vue.i18n.set('de');
+Vue.i18n.set(window.navigator.language.split('-')[0]);
+// Vue.i18n.set('de');
 
 /* eslint-disable no-new */
 export default new Vue({

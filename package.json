@@ -1,17 +1,12 @@
 {
-  "name": "lesson-planning",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
   "author": "Tobias Winkler <tobias.winkler@evan.team>",
-  "private": true,
-  "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
-    "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
-  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "dependencies": {
-    "@mdi/font": "^4.7.95",
+    "@mdi/font": "^5.3.45",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.9.0",
@@ -26,6 +21,7 @@
     "vuex-i18n": "^1.13.1",
     "vuex-persist": "^2.2.0"
   },
+  "description": "A Vue.js project",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
@@ -75,9 +71,13 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "name": "lesson-planning",
+  "private": true,
+  "scripts": {
+    "build": "node build/build.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "lint": "eslint --ext .js,.vue src",
+    "start": "npm run dev"
+  },
+  "version": "1.0.0"
 }

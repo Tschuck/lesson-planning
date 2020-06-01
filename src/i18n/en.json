@@ -20,6 +20,7 @@
     },
     "delete": "Delete",
     "delete-long": "Do you realy want to continue?",
+    "github": "View on Github",
     "hour": "Hour",
     "lesson": {
       "add": "Add lesson",
@@ -49,16 +50,16 @@
     },
     "timetable": {
       "create": "Generate Timetable",
-      "generating": "Generating Timetable...",
-      "missing": "No Timetable was created before, please generate a new one.",
-      "reset": "Reset Timetable",
-      "lock-lesson": "Force lesson manually",
-      "print": "Print",
       "error": {
-        "title": "Error",
         "invalid": "Invalid configuration of the lessons. No timetable could be generated.",
-        "manual": "No timetable could be generated for this manual configuration. The change has been undone."
-      }
+        "manual": "No timetable could be generated for this manual configuration. The change has been undone.",
+        "title": "Error"
+      },
+      "generating": "Generating Timetable...",
+      "lock-lesson": "Force lesson manually",
+      "missing": "No Timetable was created before, please generate a new one.",
+      "print": "Print",
+      "reset": "Reset Timetable"
     },
     "title": "Lesson planning"
   }

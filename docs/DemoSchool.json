@@ -1,0 +1,5209 @@
+{
+ "classes": {
+  "05237a2e-947e-7df0-d1be-834ab1dd1656": {
+   "lessons": {
+    "06334bb6-f927-6da4-db13-7105341dd27e": {
+     "hours": "2",
+     "lessons": [
+      "e48140c5-079a-9973-7f9b-ebd9aeef4ab5"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    "14628123-ff5a-b57c-6770-a59fbf58ad23": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Ethics",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "181713fa-3623-31b2-1a6c-5d74a3517596": {
+     "hours": "5",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "30c532bb-e400-b1df-4df7-1a4d1ecdf399": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "3dfb12c4-0d60-b15a-fe79-250b94f3ffad": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "58c66752-8e42-5e83-4ce3-7ac4b1df0faf": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "630be427-a560-1b24-0c79-cf4cb64a4a55": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "7ad68da6-afad-92e7-5a86-e4699e9c0cac": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "ace43cc2-9c22-f1ee-4463-d010e1a13464": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "dec11311-9aa5-37c7-9b8b-d08e308ca101": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    }
+   },
+   "name": "Class - 1a"
+  },
+  "50e54931-9427-0b84-a307-0df57278c8f2": {
+   "lessons": {
+    "0bef3da9-c40a-8fd7-a706-3a572d1a82e5": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "12f9c856-ad05-a5e5-b35b-cc9ac898bcbb": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Swimming",
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    "1989304b-fd46-ac80-8b59-94aa67179270": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "27be7c31-0513-986e-4337-b395c0f2610c": {
+     "hours": "2",
+     "lessons": [
+      "aa5e507d-def8-f042-5296-94709197791b"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    "324c3353-c5f3-47ca-7bbd-642520556fa1": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "4a92f1de-bffa-aae4-7889-cd88ca579fd7": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Englisch",
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "65bfceb1-c67f-6368-0b59-c92ed7926652": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "6b4ce17c-357f-1275-ecc1-98a9039b404d": {
+     "hours": "5",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "97a31f3b-a448-8ce7-e2da-2932cb6aec17": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "fd0e2419-ff46-e542-4825-71010ae4fe94": {
+     "hours": "2",
+     "lessons": [
+      "3bf4d808-5577-5c60-811f-b45b73348e34"
+     ],
+     "name": "Ethics",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   },
+   "name": "Class - 3a"
+  },
+  "61f005e5-28fd-1cc0-930d-a06624ec7e88": {
+   "lessons": {
+    "0435fbb6-65e2-6b68-44a9-cf696b90d63b": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    "219641cb-3ad5-044f-55ba-b32ac4b59f37": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    "3bdff572-8fef-11ca-dbc0-0611bd9567ea": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Ethics",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "5b0b8269-c070-44db-6691-f79157fe1435": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "7f17f0ed-6bb7-88b4-1ac3-2f2fb0ffb351": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "8a7f9ed5-ac03-3a47-dcd6-3a0dffb36de5": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "b7b093cf-9e8b-a484-f904-3d481d7b90d6": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    "c3d0ac69-0f40-2c62-8ba6-93bbb0c8e7ef": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e": {
+     "hours": "5",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "e48140c5-079a-9973-7f9b-ebd9aeef4ab5": {
+     "hours": "2",
+     "lessons": [
+      "06334bb6-f927-6da4-db13-7105341dd27e"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    }
+   },
+   "name": "Class - 1b"
+  },
+  "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f": {
+   "lessons": {
+    "25dd948a-3c68-9d1b-a377-83968edd6dcd": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "28b131bf-c176-3f7c-c835-4df65fb87b7b": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "41805624-bf8a-ba12-e5fb-1a19a395f7d4": {
+     "hours": "2",
+     "lessons": [
+      "96911445-bb92-7457-89a5-e217a2b2e2e3"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    "45d0c505-5459-e8e8-17d2-7f7a087d5d36": {
+     "hours": "2",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+     ],
+     "name": "Ethics",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    "4d760e2e-1df1-145e-83a2-e42d078c7c31": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    "9e243d7d-c814-de29-1443-f3e2ef056366": {
+     "hours": "6",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    "a339d590-e5d6-7e97-db2e-21fd313b74da": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    "e7aa6e2c-4068-149a-f3d4-d95ecb94a588": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    "eabcf5ef-088e-1376-fabf-d7ecb0d9a2cb": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "eac51990-75d1-ad28-c01f-b53e5faa0fb5": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Englisch",
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    "f36a98b8-38f9-c725-62f4-96f9790e6efb": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    }
+   },
+   "name": "Class - 4b"
+  },
+  "bbe21a2a-b156-3337-cb8c-ebabb2a257f1": {
+   "lessons": {
+    "3bc67731-b1e1-cb6e-bd8e-4c315eabda8b": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "50428e55-38c6-b761-6190-14bf4c51532e": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "520694f5-7f1e-e997-989e-5bf6c0a3e8e3": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "5494c49f-b7f6-9053-a6b4-79407cc2ab7b": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "60cdf09b-5dfc-d96e-c722-c715add09c45": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Ethics",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "794101d0-8c60-773e-e4ba-49b8c690de44": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "88dbeab0-a25b-fa42-281e-9cf04ce886d0": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "a0084363-61bb-8d46-801a-6cc3f9491a53": {
+     "hours": "5",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d": {
+     "hours": "2",
+     "lessons": [
+      "f8013df5-209e-2182-a9f9-17fcdf0b68c5"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    "cbe3e5ce-4b63-5e18-f491-5d6c1167f185": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   },
+   "name": "Class - 2a"
+  },
+  "bed59ffd-0494-5ecb-28c5-62910a6ba978": {
+   "lessons": {
+    "008c0ac0-a17c-264c-738a-94972e487119": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "11c9a3f5-489d-4b0d-93ba-b89733dc2389": {
+     "hours": "3",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    "1a60c5ad-493e-1f63-8299-5186efdcb34e": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    "3bf4d808-5577-5c60-811f-b45b73348e34": {
+     "hours": "2",
+     "lessons": [
+      "fd0e2419-ff46-e542-4825-71010ae4fe94"
+     ],
+     "name": "Ethics",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    "55b7606f-e958-f3ed-e349-a259b46f7972": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    "61e89e82-c8ad-0605-ba3c-a6a7b43fdf92": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "7341145d-d649-733a-dd6f-f256a25b7b29": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Englisch",
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    "84dfe7b1-a687-c118-4150-c1f37584ad43": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    "aa5e507d-def8-f042-5296-94709197791b": {
+     "hours": "2",
+     "lessons": [
+      "27be7c31-0513-986e-4337-b395c0f2610c"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9": {
+     "hours": "5",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    "ebb10ef3-2553-846c-ba04-bdd83e3a15f2": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   },
+   "name": "Class -3b"
+  },
+  "d410ca7b-7581-9120-8141-7cee0844ffa0": {
+   "lessons": {
+    "294c9c56-39a3-8d45-fcae-9704343fbcc7": {
+     "hours": "6",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "3745ef25-43a7-e28f-dae8-8d384b17c8ee": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "4f58c42c-7344-5509-c3ee-dc778a72c93a": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "685a0b8f-d801-1742-0daf-01df9c2b60dc": {
+     "hours": "2",
+     "lessons": [
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "name": "Ethics",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    "96911445-bb92-7457-89a5-e217a2b2e2e3": {
+     "hours": "2",
+     "lessons": [
+      "41805624-bf8a-ba12-e5fb-1a19a395f7d4"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    "97ed0058-9616-3fa1-6d52-5ef3105b0406": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "ba76fd2c-fb3d-16a0-d2e2-d3b434c42611": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "bfe4f0ff-960c-b3e6-6ff1-56f0fe073752": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Englisch",
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    "caed2f92-5cc0-97e5-bf89-f5161193c7fc": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    "e22febb3-733a-7d83-8a98-d6e7839c9e12": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    "f9dfcc21-0e5a-1a8d-c0cf-1d680e2fae78": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    }
+   },
+   "name": "Class - 4a"
+  },
+  "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc": {
+   "lessons": {
+    "31dc756c-ee10-6a41-8c73-5d939b58ace3": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Wood Work",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "6a063e91-cf80-4492-caa0-f978a161272e": {
+     "hours": "2",
+     "lessons": [],
+     "name": "School garden",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "6b9ddb04-c89f-8e13-8c38-89dab9039fba": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Art",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "70ccdb9d-a747-b155-2c46-ed34f3aeb3df": {
+     "hours": "1",
+     "lessons": [],
+     "name": "Music",
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    "7ee60072-683f-96e9-35c3-63dd371333fd": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Sport",
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    "a14e4dff-af7d-53d2-5ddd-c0807730ef95": {
+     "hours": "3",
+     "lessons": [],
+     "name": "history and geography",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e": {
+     "hours": "6",
+     "lessons": [],
+     "name": "German",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9": {
+     "hours": "5",
+     "lessons": [],
+     "name": "Math",
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    "f8013df5-209e-2182-a9f9-17fcdf0b68c5": {
+     "hours": "2",
+     "lessons": [
+      "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d"
+     ],
+     "name": "Religion",
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    "fb1c8b8b-a0ef-c2ee-0826-8a24011fd8f3": {
+     "hours": "2",
+     "lessons": [],
+     "name": "Ethics",
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   },
+   "name": "Class - 2b"
+  }
+ },
+ "lessons": {},
+ "name": "Demo School",
+ "teachers": {
+  "0569d25c-4eec-3e08-f16b-0c8da3c5792b": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Lily-Mae Vinson"
+  },
+  "11d87e08-dbb0-2976-7ab5-4eca6e2ea899": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Lily-Mae Vinson"
+  },
+  "164924d7-eb96-99be-b7c0-65cad3d5f5cd": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Ilayda Gardiner"
+  },
+  "38c029eb-cfb4-5681-83df-b7c90b6441b9": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Evangeline Boyd"
+  },
+  "52defc54-74d7-4b8c-b320-4dd600ab2c5e": {
+   "days": [
+    [],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [],
+    [],
+    []
+   ],
+   "name": "Beatriz Schroeder"
+  },
+  "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Abi Sadler"
+  },
+  "7b16cfb3-20c2-e780-c9e6-48d921238751": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Iyla Houghton"
+  },
+  "8226ebe5-8220-ea58-45b5-81cf4576fb5b": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Sebastian Morrison"
+  },
+  "a051e830-aacd-0787-ff70-180cd27d240a": {
+   "days": [
+    [],
+    [],
+    [
+     1,
+     2,
+     3,
+     4
+    ],
+    [],
+    []
+   ],
+   "name": "Mahamed Weeks"
+  },
+  "c7037fc0-74e5-adde-743f-483ceea3bfee": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Macie Lara"
+  },
+  "d2680e78-32c3-d2d1-07c7-6d483d7b520e": {
+   "days": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   ],
+   "name": "Saim Arnold"
+  },
+  "f37f19a3-67e9-2169-6561-754f004a004b": {
+   "days": [
+    [
+     4,
+     5,
+     6
+    ],
+    [],
+    [
+     5,
+     6
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     4,
+     5
+    ]
+   ],
+   "name": "Hasnain House"
+  }
+ },
+ "timetable": {
+  "05237a2e-947e-7df0-d1be-834ab1dd1656": [
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "06334bb6-f927-6da4-db13-7105341dd27e|||e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "e48140c5-079a-9973-7f9b-ebd9aeef4ab5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "06334bb6-f927-6da4-db13-7105341dd27e",
+     "lessons": [
+      "e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+      "06334bb6-f927-6da4-db13-7105341dd27e"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "30c532bb-e400-b1df-4df7-1a4d1ecdf399",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "30c532bb-e400-b1df-4df7-1a4d1ecdf399",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "7ad68da6-afad-92e7-5a86-e4699e9c0cac",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "7ad68da6-afad-92e7-5a86-e4699e9c0cac",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "dec11311-9aa5-37c7-9b8b-d08e308ca101",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "dec11311-9aa5-37c7-9b8b-d08e308ca101",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "06334bb6-f927-6da4-db13-7105341dd27e|||e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "e48140c5-079a-9973-7f9b-ebd9aeef4ab5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "06334bb6-f927-6da4-db13-7105341dd27e",
+     "lessons": [
+      "e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+      "06334bb6-f927-6da4-db13-7105341dd27e"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "30c532bb-e400-b1df-4df7-1a4d1ecdf399",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "30c532bb-e400-b1df-4df7-1a4d1ecdf399",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "7ad68da6-afad-92e7-5a86-e4699e9c0cac",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "7ad68da6-afad-92e7-5a86-e4699e9c0cac",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "14628123-ff5a-b57c-6770-a59fbf58ad23",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "14628123-ff5a-b57c-6770-a59fbf58ad23",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "3dfb12c4-0d60-b15a-fe79-250b94f3ffad",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "3dfb12c4-0d60-b15a-fe79-250b94f3ffad",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "ace43cc2-9c22-f1ee-4463-d010e1a13464",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "ace43cc2-9c22-f1ee-4463-d010e1a13464",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "14628123-ff5a-b57c-6770-a59fbf58ad23",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "14628123-ff5a-b57c-6770-a59fbf58ad23",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "58c66752-8e42-5e83-4ce3-7ac4b1df0faf",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "58c66752-8e42-5e83-4ce3-7ac4b1df0faf",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "ace43cc2-9c22-f1ee-4463-d010e1a13464",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "ace43cc2-9c22-f1ee-4463-d010e1a13464",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "181713fa-3623-31b2-1a6c-5d74a3517596",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "30c532bb-e400-b1df-4df7-1a4d1ecdf399",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "30c532bb-e400-b1df-4df7-1a4d1ecdf399",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "630be427-a560-1b24-0c79-cf4cb64a4a55",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "dec11311-9aa5-37c7-9b8b-d08e308ca101",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "dec11311-9aa5-37c7-9b8b-d08e308ca101",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    }
+   ]
+  ],
+  "50e54931-9427-0b84-a307-0df57278c8f2": [
+   [
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "0bef3da9-c40a-8fd7-a706-3a572d1a82e5",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "0bef3da9-c40a-8fd7-a706-3a572d1a82e5",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "4a92f1de-bffa-aae4-7889-cd88ca579fd7",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4a92f1de-bffa-aae4-7889-cd88ca579fd7",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "65bfceb1-c67f-6368-0b59-c92ed7926652",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "65bfceb1-c67f-6368-0b59-c92ed7926652",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1989304b-fd46-ac80-8b59-94aa67179270",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "1989304b-fd46-ac80-8b59-94aa67179270",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "324c3353-c5f3-47ca-7bbd-642520556fa1",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "324c3353-c5f3-47ca-7bbd-642520556fa1",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "97a31f3b-a448-8ce7-e2da-2932cb6aec17",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "97a31f3b-a448-8ce7-e2da-2932cb6aec17",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1989304b-fd46-ac80-8b59-94aa67179270",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "1989304b-fd46-ac80-8b59-94aa67179270",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "27be7c31-0513-986e-4337-b395c0f2610c|||aa5e507d-def8-f042-5296-94709197791b",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "aa5e507d-def8-f042-5296-94709197791b"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "27be7c31-0513-986e-4337-b395c0f2610c",
+     "lessons": [
+      "aa5e507d-def8-f042-5296-94709197791b",
+      "27be7c31-0513-986e-4337-b395c0f2610c"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "27be7c31-0513-986e-4337-b395c0f2610c|||aa5e507d-def8-f042-5296-94709197791b",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "aa5e507d-def8-f042-5296-94709197791b"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "27be7c31-0513-986e-4337-b395c0f2610c",
+     "lessons": [
+      "aa5e507d-def8-f042-5296-94709197791b",
+      "27be7c31-0513-986e-4337-b395c0f2610c"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "12f9c856-ad05-a5e5-b35b-cc9ac898bcbb",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Swimming",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "12f9c856-ad05-a5e5-b35b-cc9ac898bcbb",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "12f9c856-ad05-a5e5-b35b-cc9ac898bcbb",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Swimming",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "12f9c856-ad05-a5e5-b35b-cc9ac898bcbb",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "5df51108-cf94-29dd-8cdb-9da5bf8bf3d7",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "3bf4d808-5577-5c60-811f-b45b73348e34|||fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "3bf4d808-5577-5c60-811f-b45b73348e34"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "lessons": [
+      "3bf4d808-5577-5c60-811f-b45b73348e34",
+      "fd0e2419-ff46-e542-4825-71010ae4fe94"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1c41cc1e-6a48-b23c-e4b9-0d2b418b6f48",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "4a92f1de-bffa-aae4-7889-cd88ca579fd7",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4a92f1de-bffa-aae4-7889-cd88ca579fd7",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "65bfceb1-c67f-6368-0b59-c92ed7926652",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "65bfceb1-c67f-6368-0b59-c92ed7926652",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "6b4ce17c-357f-1275-ecc1-98a9039b404d",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "3bf4d808-5577-5c60-811f-b45b73348e34|||fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "3bf4d808-5577-5c60-811f-b45b73348e34"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "lessons": [
+      "3bf4d808-5577-5c60-811f-b45b73348e34",
+      "fd0e2419-ff46-e542-4825-71010ae4fe94"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ]
+  ],
+  "61f005e5-28fd-1cc0-930d-a06624ec7e88": [
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "06334bb6-f927-6da4-db13-7105341dd27e|||e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "e48140c5-079a-9973-7f9b-ebd9aeef4ab5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "06334bb6-f927-6da4-db13-7105341dd27e",
+     "lessons": [
+      "e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+      "06334bb6-f927-6da4-db13-7105341dd27e"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "219641cb-3ad5-044f-55ba-b32ac4b59f37",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "219641cb-3ad5-044f-55ba-b32ac4b59f37",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "7f17f0ed-6bb7-88b4-1ac3-2f2fb0ffb351",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "7f17f0ed-6bb7-88b4-1ac3-2f2fb0ffb351",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    null,
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "05237a2e-947e-7df0-d1be-834ab1dd1656",
+     "id": "06334bb6-f927-6da4-db13-7105341dd27e|||e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "e48140c5-079a-9973-7f9b-ebd9aeef4ab5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "06334bb6-f927-6da4-db13-7105341dd27e",
+     "lessons": [
+      "e48140c5-079a-9973-7f9b-ebd9aeef4ab5",
+      "06334bb6-f927-6da4-db13-7105341dd27e"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "3bdff572-8fef-11ca-dbc0-0611bd9567ea",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "3bdff572-8fef-11ca-dbc0-0611bd9567ea",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "7f17f0ed-6bb7-88b4-1ac3-2f2fb0ffb351",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "7f17f0ed-6bb7-88b4-1ac3-2f2fb0ffb351",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "c3d0ac69-0f40-2c62-8ba6-93bbb0c8e7ef",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+      ]
+     },
+     "lessonId": "c3d0ac69-0f40-2c62-8ba6-93bbb0c8e7ef",
+     "lessons": [],
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "c3d0ac69-0f40-2c62-8ba6-93bbb0c8e7ef",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+      ]
+     },
+     "lessonId": "c3d0ac69-0f40-2c62-8ba6-93bbb0c8e7ef",
+     "lessons": [],
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "0435fbb6-65e2-6b68-44a9-cf696b90d63b",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "0435fbb6-65e2-6b68-44a9-cf696b90d63b",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "3bdff572-8fef-11ca-dbc0-0611bd9567ea",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "3bdff572-8fef-11ca-dbc0-0611bd9567ea",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "8a7f9ed5-ac03-3a47-dcd6-3a0dffb36de5",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "8a7f9ed5-ac03-3a47-dcd6-3a0dffb36de5",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "0435fbb6-65e2-6b68-44a9-cf696b90d63b",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "0435fbb6-65e2-6b68-44a9-cf696b90d63b",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "5b0b8269-c070-44db-6691-f79157fe1435",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "5b0b8269-c070-44db-6691-f79157fe1435",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "0435fbb6-65e2-6b68-44a9-cf696b90d63b",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "0435fbb6-65e2-6b68-44a9-cf696b90d63b",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "5b0b8269-c070-44db-6691-f79157fe1435",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "5b0b8269-c070-44db-6691-f79157fe1435",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "b7b093cf-9e8b-a484-f904-3d481d7b90d6",
+     "lessons": [],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "61f005e5-28fd-1cc0-930d-a06624ec7e88",
+     "id": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "d1a09b7e-672b-a9e2-8b73-431bf3a00b7e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    }
+   ]
+  ],
+  "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f": [
+   [
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "28b131bf-c176-3f7c-c835-4df65fb87b7b",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "28b131bf-c176-3f7c-c835-4df65fb87b7b",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "eac51990-75d1-ad28-c01f-b53e5faa0fb5",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "eac51990-75d1-ad28-c01f-b53e5faa0fb5",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "a339d590-e5d6-7e97-db2e-21fd313b74da",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+      ]
+     },
+     "lessonId": "a339d590-e5d6-7e97-db2e-21fd313b74da",
+     "lessons": [],
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "a339d590-e5d6-7e97-db2e-21fd313b74da",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+      ]
+     },
+     "lessonId": "a339d590-e5d6-7e97-db2e-21fd313b74da",
+     "lessons": [],
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "eabcf5ef-088e-1376-fabf-d7ecb0d9a2cb",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "eabcf5ef-088e-1376-fabf-d7ecb0d9a2cb",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "eac51990-75d1-ad28-c01f-b53e5faa0fb5",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "eac51990-75d1-ad28-c01f-b53e5faa0fb5",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "41805624-bf8a-ba12-e5fb-1a19a395f7d4|||96911445-bb92-7457-89a5-e217a2b2e2e3",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "96911445-bb92-7457-89a5-e217a2b2e2e3"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "41805624-bf8a-ba12-e5fb-1a19a395f7d4",
+     "lessons": [
+      "96911445-bb92-7457-89a5-e217a2b2e2e3",
+      "41805624-bf8a-ba12-e5fb-1a19a395f7d4"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "f36a98b8-38f9-c725-62f4-96f9790e6efb",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "f36a98b8-38f9-c725-62f4-96f9790e6efb",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "28b131bf-c176-3f7c-c835-4df65fb87b7b",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "28b131bf-c176-3f7c-c835-4df65fb87b7b",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "e7aa6e2c-4068-149a-f3d4-d95ecb94a588",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "e7aa6e2c-4068-149a-f3d4-d95ecb94a588",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "f36a98b8-38f9-c725-62f4-96f9790e6efb",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "f36a98b8-38f9-c725-62f4-96f9790e6efb",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "28b131bf-c176-3f7c-c835-4df65fb87b7b",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "28b131bf-c176-3f7c-c835-4df65fb87b7b",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "9e243d7d-c814-de29-1443-f3e2ef056366",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "4d760e2e-1df1-145e-83a2-e42d078c7c31",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "e7aa6e2c-4068-149a-f3d4-d95ecb94a588",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "f37f19a3-67e9-2169-6561-754f004a004b"
+      ]
+     },
+     "lessonId": "e7aa6e2c-4068-149a-f3d4-d95ecb94a588",
+     "lessons": [],
+     "teachers": [
+      "f37f19a3-67e9-2169-6561-754f004a004b"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "25dd948a-3c68-9d1b-a377-83968edd6dcd",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "25dd948a-3c68-9d1b-a377-83968edd6dcd",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    }
+   ]
+  ],
+  "bbe21a2a-b156-3337-cb8c-ebabb2a257f1": [
+   [
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "3bc67731-b1e1-cb6e-bd8e-4c315eabda8b",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "3bc67731-b1e1-cb6e-bd8e-4c315eabda8b",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "5494c49f-b7f6-9053-a6b4-79407cc2ab7b",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "5494c49f-b7f6-9053-a6b4-79407cc2ab7b",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "794101d0-8c60-773e-e4ba-49b8c690de44",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "794101d0-8c60-773e-e4ba-49b8c690de44",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d|||f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "f8013df5-209e-2182-a9f9-17fcdf0b68c5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d",
+     "lessons": [
+      "f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+      "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "3bc67731-b1e1-cb6e-bd8e-4c315eabda8b",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "3bc67731-b1e1-cb6e-bd8e-4c315eabda8b",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "5494c49f-b7f6-9053-a6b4-79407cc2ab7b",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "5494c49f-b7f6-9053-a6b4-79407cc2ab7b",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "794101d0-8c60-773e-e4ba-49b8c690de44",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "794101d0-8c60-773e-e4ba-49b8c690de44",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d|||f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "f8013df5-209e-2182-a9f9-17fcdf0b68c5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d",
+     "lessons": [
+      "f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+      "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "50428e55-38c6-b761-6190-14bf4c51532e",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "50428e55-38c6-b761-6190-14bf4c51532e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "60cdf09b-5dfc-d96e-c722-c715add09c45",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "60cdf09b-5dfc-d96e-c722-c715add09c45",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "88dbeab0-a25b-fa42-281e-9cf04ce886d0",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "88dbeab0-a25b-fa42-281e-9cf04ce886d0",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "520694f5-7f1e-e997-989e-5bf6c0a3e8e3",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "520694f5-7f1e-e997-989e-5bf6c0a3e8e3",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "60cdf09b-5dfc-d96e-c722-c715add09c45",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "60cdf09b-5dfc-d96e-c722-c715add09c45",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "520694f5-7f1e-e997-989e-5bf6c0a3e8e3",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "520694f5-7f1e-e997-989e-5bf6c0a3e8e3",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "794101d0-8c60-773e-e4ba-49b8c690de44",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "794101d0-8c60-773e-e4ba-49b8c690de44",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "a0084363-61bb-8d46-801a-6cc3f9491a53",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "cbe3e5ce-4b63-5e18-f491-5d6c1167f185",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   ]
+  ],
+  "bed59ffd-0494-5ecb-28c5-62910a6ba978": [
+   [
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "11c9a3f5-489d-4b0d-93ba-b89733dc2389",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "11c9a3f5-489d-4b0d-93ba-b89733dc2389",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "61e89e82-c8ad-0605-ba3c-a6a7b43fdf92",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "61e89e82-c8ad-0605-ba3c-a6a7b43fdf92",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "7341145d-d649-733a-dd6f-f256a25b7b29",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "7341145d-d649-733a-dd6f-f256a25b7b29",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "ebb10ef3-2553-846c-ba04-bdd83e3a15f2",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "ebb10ef3-2553-846c-ba04-bdd83e3a15f2",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "11c9a3f5-489d-4b0d-93ba-b89733dc2389",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "11c9a3f5-489d-4b0d-93ba-b89733dc2389",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "7341145d-d649-733a-dd6f-f256a25b7b29",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "7341145d-d649-733a-dd6f-f256a25b7b29",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "ebb10ef3-2553-846c-ba04-bdd83e3a15f2",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "ebb10ef3-2553-846c-ba04-bdd83e3a15f2",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "1a60c5ad-493e-1f63-8299-5186efdcb34e",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "1a60c5ad-493e-1f63-8299-5186efdcb34e",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "55b7606f-e958-f3ed-e349-a259b46f7972",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "55b7606f-e958-f3ed-e349-a259b46f7972",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "27be7c31-0513-986e-4337-b395c0f2610c|||aa5e507d-def8-f042-5296-94709197791b",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "aa5e507d-def8-f042-5296-94709197791b"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "27be7c31-0513-986e-4337-b395c0f2610c",
+     "lessons": [
+      "aa5e507d-def8-f042-5296-94709197791b",
+      "27be7c31-0513-986e-4337-b395c0f2610c"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "27be7c31-0513-986e-4337-b395c0f2610c|||aa5e507d-def8-f042-5296-94709197791b",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "aa5e507d-def8-f042-5296-94709197791b"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "27be7c31-0513-986e-4337-b395c0f2610c",
+     "lessons": [
+      "aa5e507d-def8-f042-5296-94709197791b",
+      "27be7c31-0513-986e-4337-b395c0f2610c"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "55b7606f-e958-f3ed-e349-a259b46f7972",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "55b7606f-e958-f3ed-e349-a259b46f7972",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "008c0ac0-a17c-264c-738a-94972e487119",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "008c0ac0-a17c-264c-738a-94972e487119",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "11c9a3f5-489d-4b0d-93ba-b89733dc2389",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "7b16cfb3-20c2-e780-c9e6-48d921238751"
+      ]
+     },
+     "lessonId": "11c9a3f5-489d-4b0d-93ba-b89733dc2389",
+     "lessons": [],
+     "teachers": [
+      "7b16cfb3-20c2-e780-c9e6-48d921238751"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "3bf4d808-5577-5c60-811f-b45b73348e34|||fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "3bf4d808-5577-5c60-811f-b45b73348e34"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "lessons": [
+      "3bf4d808-5577-5c60-811f-b45b73348e34",
+      "fd0e2419-ff46-e542-4825-71010ae4fe94"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "55b7606f-e958-f3ed-e349-a259b46f7972",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "55b7606f-e958-f3ed-e349-a259b46f7972",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "008c0ac0-a17c-264c-738a-94972e487119",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "008c0ac0-a17c-264c-738a-94972e487119",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "84dfe7b1-a687-c118-4150-c1f37584ad43",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "bed59ffd-0494-5ecb-28c5-62910a6ba978",
+     "id": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "b97fbd2f-dc4c-2fd8-de0a-4e261c3a84d9",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "50e54931-9427-0b84-a307-0df57278c8f2",
+     "id": "3bf4d808-5577-5c60-811f-b45b73348e34|||fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "3bf4d808-5577-5c60-811f-b45b73348e34"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "fd0e2419-ff46-e542-4825-71010ae4fe94",
+     "lessons": [
+      "3bf4d808-5577-5c60-811f-b45b73348e34",
+      "fd0e2419-ff46-e542-4825-71010ae4fe94"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ]
+  ],
+  "d410ca7b-7581-9120-8141-7cee0844ffa0": [
+   [
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "bfe4f0ff-960c-b3e6-6ff1-56f0fe073752",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "bfe4f0ff-960c-b3e6-6ff1-56f0fe073752",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "caed2f92-5cc0-97e5-bf89-f5161193c7fc",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "caed2f92-5cc0-97e5-bf89-f5161193c7fc",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "4f58c42c-7344-5509-c3ee-dc778a72c93a",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "4f58c42c-7344-5509-c3ee-dc778a72c93a",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "e22febb3-733a-7d83-8a98-d6e7839c9e12",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+      ]
+     },
+     "lessonId": "e22febb3-733a-7d83-8a98-d6e7839c9e12",
+     "lessons": [],
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "e22febb3-733a-7d83-8a98-d6e7839c9e12",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+      ]
+     },
+     "lessonId": "e22febb3-733a-7d83-8a98-d6e7839c9e12",
+     "lessons": [],
+     "teachers": [
+      "52defc54-74d7-4b8c-b320-4dd600ab2c5e"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "caed2f92-5cc0-97e5-bf89-f5161193c7fc",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "caed2f92-5cc0-97e5-bf89-f5161193c7fc",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "41805624-bf8a-ba12-e5fb-1a19a395f7d4|||96911445-bb92-7457-89a5-e217a2b2e2e3",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "96911445-bb92-7457-89a5-e217a2b2e2e3"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "41805624-bf8a-ba12-e5fb-1a19a395f7d4",
+     "lessons": [
+      "96911445-bb92-7457-89a5-e217a2b2e2e3",
+      "41805624-bf8a-ba12-e5fb-1a19a395f7d4"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "41805624-bf8a-ba12-e5fb-1a19a395f7d4|||96911445-bb92-7457-89a5-e217a2b2e2e3",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "96911445-bb92-7457-89a5-e217a2b2e2e3"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "a051e830-aacd-0787-ff70-180cd27d240a"
+      ]
+     },
+     "lessonId": "41805624-bf8a-ba12-e5fb-1a19a395f7d4",
+     "lessons": [
+      "96911445-bb92-7457-89a5-e217a2b2e2e3",
+      "41805624-bf8a-ba12-e5fb-1a19a395f7d4"
+     ],
+     "teachers": [
+      "a051e830-aacd-0787-ff70-180cd27d240a"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "caed2f92-5cc0-97e5-bf89-f5161193c7fc",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "caed2f92-5cc0-97e5-bf89-f5161193c7fc",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "ba76fd2c-fb3d-16a0-d2e2-d3b434c42611",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "ba76fd2c-fb3d-16a0-d2e2-d3b434c42611",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "97ed0058-9616-3fa1-6d52-5ef3105b0406",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "97ed0058-9616-3fa1-6d52-5ef3105b0406",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "f9dfcc21-0e5a-1a8d-c0cf-1d680e2fae78",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "c7037fc0-74e5-adde-743f-483ceea3bfee"
+      ]
+     },
+     "lessonId": "f9dfcc21-0e5a-1a8d-c0cf-1d680e2fae78",
+     "lessons": [],
+     "teachers": [
+      "c7037fc0-74e5-adde-743f-483ceea3bfee"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "97ed0058-9616-3fa1-6d52-5ef3105b0406",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "97ed0058-9616-3fa1-6d52-5ef3105b0406",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "bfe4f0ff-960c-b3e6-6ff1-56f0fe073752",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Englisch",
+      "teachers": [
+       "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+      ]
+     },
+     "lessonId": "bfe4f0ff-960c-b3e6-6ff1-56f0fe073752",
+     "lessons": [],
+     "teachers": [
+      "38c029eb-cfb4-5681-83df-b7c90b6441b9"
+     ]
+    },
+    {
+     "classId": "7ff8414d-92f0-a85f-c0d7-6e1166ecd87f",
+     "id": "45d0c505-5459-e8e8-17d2-7f7a087d5d36|||685a0b8f-d801-1742-0daf-01df9c2b60dc",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "685a0b8f-d801-1742-0daf-01df9c2b60dc"
+      ],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "45d0c505-5459-e8e8-17d2-7f7a087d5d36",
+     "lessons": [
+      "685a0b8f-d801-1742-0daf-01df9c2b60dc",
+      "45d0c505-5459-e8e8-17d2-7f7a087d5d36"
+     ],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "294c9c56-39a3-8d45-fcae-9704343fbcc7",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "3745ef25-43a7-e28f-dae8-8d384b17c8ee",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    },
+    {
+     "classId": "d410ca7b-7581-9120-8141-7cee0844ffa0",
+     "id": "ba76fd2c-fb3d-16a0-d2e2-d3b434c42611",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+      ]
+     },
+     "lessonId": "ba76fd2c-fb3d-16a0-d2e2-d3b434c42611",
+     "lessons": [],
+     "teachers": [
+      "5d8969e4-2a66-fe8c-219f-4c1b8e0bb34b"
+     ]
+    }
+   ]
+  ],
+  "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc": [
+   [
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "fb1c8b8b-a0ef-c2ee-0826-8a24011fd8f3",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "fb1c8b8b-a0ef-c2ee-0826-8a24011fd8f3",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "7ee60072-683f-96e9-35c3-63dd371333fd",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "7ee60072-683f-96e9-35c3-63dd371333fd",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d|||f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "f8013df5-209e-2182-a9f9-17fcdf0b68c5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d",
+     "lessons": [
+      "f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+      "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "70ccdb9d-a747-b155-2c46-ed34f3aeb3df",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Music",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "70ccdb9d-a747-b155-2c46-ed34f3aeb3df",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "6b9ddb04-c89f-8e13-8c38-89dab9039fba",
+     "instance": {
+      "hours": "1",
+      "lessons": [],
+      "name": "Art",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "6b9ddb04-c89f-8e13-8c38-89dab9039fba",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    null,
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "bbe21a2a-b156-3337-cb8c-ebabb2a257f1",
+     "id": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d|||f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+     "instance": {
+      "hours": "2",
+      "lessons": [
+       "f8013df5-209e-2182-a9f9-17fcdf0b68c5"
+      ],
+      "name": "Religion",
+      "teachers": [
+       "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+      ]
+     },
+     "lessonId": "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d",
+     "lessons": [
+      "f8013df5-209e-2182-a9f9-17fcdf0b68c5",
+      "c9ac27d3-9e24-3dd7-fcba-3b00f3289e8d"
+     ],
+     "teachers": [
+      "164924d7-eb96-99be-b7c0-65cad3d5f5cd"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "6a063e91-cf80-4492-caa0-f978a161272e",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "6a063e91-cf80-4492-caa0-f978a161272e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "31dc756c-ee10-6a41-8c73-5d939b58ace3",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "31dc756c-ee10-6a41-8c73-5d939b58ace3",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "a14e4dff-af7d-53d2-5ddd-c0807730ef95",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "a14e4dff-af7d-53d2-5ddd-c0807730ef95",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "7ee60072-683f-96e9-35c3-63dd371333fd",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Sport",
+      "teachers": [
+       "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+      ]
+     },
+     "lessonId": "7ee60072-683f-96e9-35c3-63dd371333fd",
+     "lessons": [],
+     "teachers": [
+      "11d87e08-dbb0-2976-7ab5-4eca6e2ea899"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "fb1c8b8b-a0ef-c2ee-0826-8a24011fd8f3",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Ethics",
+      "teachers": [
+       "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+      ]
+     },
+     "lessonId": "fb1c8b8b-a0ef-c2ee-0826-8a24011fd8f3",
+     "lessons": [],
+     "teachers": [
+      "8226ebe5-8220-ea58-45b5-81cf4576fb5b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "31dc756c-ee10-6a41-8c73-5d939b58ace3",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "Wood Work",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "31dc756c-ee10-6a41-8c73-5d939b58ace3",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "a14e4dff-af7d-53d2-5ddd-c0807730ef95",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "a14e4dff-af7d-53d2-5ddd-c0807730ef95",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    }
+   ],
+   [
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "6a063e91-cf80-4492-caa0-f978a161272e",
+     "instance": {
+      "hours": "2",
+      "lessons": [],
+      "name": "School garden",
+      "teachers": [
+       "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+      ]
+     },
+     "lessonId": "6a063e91-cf80-4492-caa0-f978a161272e",
+     "lessons": [],
+     "teachers": [
+      "d2680e78-32c3-d2d1-07c7-6d483d7b520e"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "a14e4dff-af7d-53d2-5ddd-c0807730ef95",
+     "instance": {
+      "hours": "3",
+      "lessons": [],
+      "name": "history and geography",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "a14e4dff-af7d-53d2-5ddd-c0807730ef95",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "instance": {
+      "hours": "6",
+      "lessons": [],
+      "name": "German",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "c2d82ec2-e1d1-8d2a-3bdc-f4c8317d3f1e",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    },
+    {
+     "classId": "d70e95f0-c1b3-5e9c-e68a-3193458fc4dc",
+     "id": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "instance": {
+      "hours": "5",
+      "lessons": [],
+      "name": "Math",
+      "teachers": [
+       "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+      ]
+     },
+     "lessonId": "dc708f21-d8cf-5b0d-c12a-4a5cbedcb9f9",
+     "lessons": [],
+     "teachers": [
+      "0569d25c-4eec-3e08-f16b-0c8da3c5792b"
+     ]
+    }
+   ]
+  ]
+ }
+}

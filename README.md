@@ -5,7 +5,7 @@ Easy handling of school, teacher and lesson metadata, for easy creations of time
 ## You want to try it?
 Have a look at: [Lesson Planning](https://tschuck.github.io/lesson-planning)
 
-Download sample file: [Demo School](https://raw.githubusercontent.com/Tschuck/lesson-planning/master/docs/DemoSchool.json)
+Download sample file: [Demo School](https://github.com/Tschuck/lesson-planning/blob/master/docs/DemoSchool.json?raw=true)
 
 ## Features
 - [x] handle plans for several schools
@@ -18,13 +18,13 @@ Download sample file: [Demo School](https://raw.githubusercontent.com/Tschuck/le
 
 ## Have a look
 ### Class Management
-![Class Management](https://raw.githubusercontent.com/Tschuck/lesson-planning/master/docs//img1.png)
+<img src="https://github.com/Tschuck/lesson-planning/blob/master/docs/img1.png?raw=true" width="500">
 
 ### Teacher Management
-![Teacher Management](https://raw.githubusercontent.com/Tschuck/lesson-planning/master/docs/img2.png)
+<img src="https://github.com/Tschuck/lesson-planning/blob/master/docs/img2.png?raw=true" width="500">
 
 ## Automatic plan generation
-![Automatic plan generation](https://raw.githubusercontent.com/Tschuck/lesson-planning/master/docs/img3.png)
+<img src="https://github.com/Tschuck/lesson-planning/blob/master/docs/img3.png?raw=true" width="500">
 
 # Tech
 ## Build Setup
